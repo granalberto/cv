@@ -1,0 +1,814 @@
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook V4.2//EN" []>
+
+<article lang="es">
+  
+  <title>Alberto Mijares</title>
+
+  <subtitle>Administrador de Sistemas - Consultor de Tecnología y
+  Seguridad de la Información</subtitle>
+  <articleinfo>
+    <revhistory>
+      <revision>
+	<revnumber>1.6.2010.03.11</revnumber>
+	<date>Marzo 2010</date>
+      </revision>
+    </revhistory>
+  </articleinfo>
+  <Sect1 id="contactInfo" label="">
+    <title>Información de Contacto</title>
+    <address>
+      <email>amijaresp@gmail.com</email>
+      <email>amijares@mcs.com.ve</email> <street>Av. Páez, Res. 2000,
+      Edf. Cecilia, piso 3, apto 28. El Paraíso </street>
+      <city>Caracas</city> <state>DC</state> <postcode>1020</postcode>
+      <country>Venezuela</country> <phone
+      id="homephone">+58(212)880.04.57</phone> <phone
+      id="cellphone">+58(416)629.09.00</phone>
+    </address>
+  </sect1>
+  <sect1 label="">
+    <title>Información Personal</title>
+    <para>
+      <mediaobject>
+	<imageobject>
+	  <imagedata fileref="foto.png" align="right">
+	</imageobject>
+      </mediaobject>
+      <literallayout>
+	Nombre: Alberto José Mijares Paredes
+	C.I.: V-14.130.425
+	Fecha de Nacimiento: 23 de octubre de 1979
+	Lugar de Nacimiento: Caracas, Venezuela
+	Estado Civíl: Soltero
+      </literallayout>
+    </para>
+    <sect2 label="">
+      <title>Idiomas</title>
+      <informaltable>
+	<tgroup cols="5">
+	  <tbody>
+	    <row>
+	      <entry>Lengua</entry>
+	      <entry>Comprensión Auditiva</entry>
+	      <entry>Comunicación Verbal</entry>
+	      <entry>Comprensión Lectora</entry>
+	      <entry>Escritura</entry>
+	    </row>
+	    <row>
+	      <entry>Inglés</entry>
+	      <entry>Buena</entry>
+	      <entry>Buena</entry>
+	      <entry>Excelente</entry>
+	      <entry>Buena</entry>
+	    </row>
+	    <row>
+	      <entry>Español</entry>
+	      <entry>Excelente</entry>
+	      <entry>Excelente</entry>
+	      <entry>Excelente</entry>
+	      <entry>Excelente</entry>
+	    </row>
+	</tbody>
+	</tgroup>
+      </informaltable>
+    </sect2>
+    <sect2 label="">
+      <title>Perfíl Personal</title> 
+      <sect3 label="">
+	<title>General</title>
+	<para>
+	  Sólidos conocimientos de las ciencias fácticas y un gran
+	  interés por las tecnologías de información, las
+	  telecomunicaciones y la innovación, me han mantenido ávido y
+	  en un proceso de aprendizaje contínuo; permitiéndome
+	  ser competitivo y productivo; basándome siempre en las
+	  mejores prácticas y documentación disponible.
+	</para>
+      </sect3>
+      <sect3 label="">
+	<title>Pasado y Presente</title>
+	<para>
+	  En el año 2003, cuando trabajaba medio tiempo en una empresa
+	  de telecomunicaciones y mientras cursaba la carrera de
+	  Ingeniería de Petróleo en la Universidad Central de
+	  Venezuela, tuve la oportunidad de formar parte del equipo de
+	  soporte técnico en el Departamento de Sistemas. Desde
+	  entonces, y después de un proceso de aprendizaje que me
+	  paseó por los sistemas de producción de la empresa, la
+	  administración de sistemas operativos como AIX, FreeBSD,
+	  GNU/Linux y <trademark>Windows</trademark> han pasado a ser
+	  parte del día a día. He desempañado cargos de Administrador
+	  de Redes y Plataformas, Analista de Seguridad de Datos y he
+	  realizado consultorías y asesorías de manera independiente
+	  en la áreas mencionadas. Toda mi metodología y filosofía de
+	  trabajo se apoya en el Software y Conocimento Libre.
+	</para>
+      </sect3>
+      <sect3 label="">
+	<title>Presente y Futuro</title>
+	<para>
+	  Actualmente como consultor independiente, bajo la figura
+	  jurídica de una firma personal: <ulink
+	  url="http://www.mcs.com.ve">Mijares Consultoría y Sistemas
+	  SL</ulink>, constituída hace poco más de un año. También
+	  formo parte del <foreignphrase>staff</foreignphrase> de
+	  instructores del <ulink
+	  url="http://ve.iseit.net">ISEIT</ulink> para sus cursos de
+	  capacitación PCL y tópicos especiales.
+	</para>
+	<para>
+          Actualmente me encuentro en un proceso de preparación
+          autodidacta en el área de desarrollo de aplicaciones, bajo
+          la filosofía MVC, con el framework Ruby on Rails; y con
+          mayor profundidas en la programación de soluciones
+          verticales y especializadas, que den solución a problemas
+          muy específicos, usando Perl como lenguaje. También he
+          estado enfocado en profundizar mis conocimientos en la
+          administración del sistema operativo FreeBSD, así como la
+          implementación de "Firewalls Reactivos" (IDS/IPS) con los
+          frameworks PF, ipfw e iptables y centrales telefónicas con
+          proyectos libres de Voz sobre IP como Asterisk y Callweaver.
+	</para>
+      </sect3>
+    </sect2>
+  </sect1>
+  <sect1 label="">
+    <title>Historia Laboral</title>
+    <para>
+      Con un total de 12 años de experiencia laboral, 8 años
+      involucrado con telecomunicaciones y sistemas de información, 6
+      administrando plataformas y brindando soporte y, 3 años de
+      experiencia como instructor de programas certificados de
+      administración de sistemas GNU/Linux. Mis áreas de fortaleza,
+      técnicamente hablando, son la administración de sistemas sobre
+      plataformas libres tales como GNU/Linux y FreeBSD; gestión,
+      monitoreo y análisis de redes IP; creación, configuración,
+      mantenimiento y <foreignphrase>hardening</foreignphrase> de
+      sistemas operativos, servicios y aplicaciones de redes sobre
+      TCP/IP.
+    </para>
+  </sect1>
+  <sect1 label="">
+    <title>Conocimientos</title>
+    <para>
+      Las siguiente sección señala mis conocimientos en las diferentes
+      disciplinas de las tecnologías de la información. Al lado de
+      cada item hay una clave que indica el nivel adquirido en cada
+      uno. Los niveles han sido graduados de acuerdo a la siguiente
+      escala:
+    </para>
+    <simplelist>
+      <member>[M] Maestro</member>
+      <member>[E] Experto</member>
+      <member>[A] Aprendiz</member>
+      <member>[N] Novato</member>
+      <member>[P] Principiante</member>
+    </simplelist>
+    <para>
+      Si el conocimiento se encuentra entre dos niveles se podrá ver
+      algo como E-M, lo que se puede traducir en "Experto
+      convirtiéndose en Maestro" o M-E como "Recientemente Maestro
+      pero principalmente Experto" o el uso de M+ y M-, en analogía a
+      lo expuesto anteriormente. Para mayores detalles acerca de esta
+      escala por favor lea el documento electrónico <ulink
+      url="http://www.mcs.com.ve/hs/">The Human Skills Grading System</ulink>.
+    </para>
+    <variablelist>
+      <title>Sistemas Operativos</title>
+      <varlistentry>
+	<term>Basados en <trademark>UNIX</trademark></term>
+	<listitem>
+	  <para>
+	    [E-] Debian GNU/Linux y derivados, Fedora y derivados
+	  </para>
+	  <para>
+	    [E-] FreeBSD
+	  </para>
+	  <para>
+	    [N] IBM <trademark>AIX</trademark>
+	  </para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term><trademark>Windows</trademark></term>
+	<listitem>
+	  <para>
+	    [A] Windows 9x - XP Professional
+	  </para>
+	  <para>
+	    [A] Windows Server 2000 - 2003
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Lenguajes de Programación</title>
+      <varlistentry>
+	<term>
+	  Aplicaciones Generales
+	</term>
+	<listitem>
+	  <para>
+	    [A-] C, Perl, Ruby, Python
+	  </para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Administración de Sistemas</term>
+	<listitem>
+	  <para>
+	    [E-] Bash
+	  </para>
+	  <para>
+            [E-] Sed & Awk
+	  </para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Internet</term>
+	<listitem>
+	  <para>
+	    [A-N] HTML, PHP
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Bases de Datos</title>
+      <varlistentry>
+	<term>Instalación y Mantenimiento</term>
+	<listitem>
+	  <para>
+	    [A-E] MySQL
+	  </para>
+	  <para>
+	    [A+] PostgreSQL
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Administración de Sistemas</title>
+      <varlistentry>
+	<term>GNU/Linux - FreeBSD</term>
+	<listitem>
+	  <para>
+	    [E] Redes IP: Firewalls, Calidad de Servicios,
+	    Enrutamiento, Enlaces Redundantes y Tolerantes a Fallas,
+	    VPN, Túneles Cifrados, VLAN's, Redes Inalámbricas, etc.
+	  </para>
+	  <para>
+	    [E] Servicios y Aplicaciones de Red: Apache, Bind, dhcpd,
+	    Xorg, OpenSSH, Subversion, Postfix, Squid, Sendmail,
+	    OpenVPN, Nagios, Cacti, Kannel, Asterisk, Dovecot, Chillispot,
+	    FreeRADIUS, CUPS, Tomcat, etc.
+	  </para>
+	  <para>
+            [E] Análisisde redes, auditoría y seguridad de la
+            información: nmap, tcpdump, Wireshark, Nessus, dsniff,
+            medusa, ettercap, hping, etc.</para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Aplicaciones de Productividad para el Escritorio y la Web</title>
+      <varlistentry>
+	<term></term>
+	<listitem>
+	  <para>
+	    [A+] Emacs, OpenOffice, Planner, Audacity, Wireshark, Dia, The
+	    Gimp, Blender, Cinelerra, Evolution - Thunderbird,
+	    Inkscape, K3B, GNUCash, dotProject, SugarCRM, Moodle,
+	    NetOffice, DocBook, LaTeX-Beamer y una amplia variedad de
+	    aplicaciones libres y comerciales.
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Hardware</title>
+      <varlistentry>
+	<term>Computación</term>
+	<listitem>
+	  <para>
+	    Amplios conocimientos en ensamblaje de equipos de
+	    computación, compatibilidad de componentes, detección de
+	    fallas de hardware, evaluación de rendimiento, necesidades
+	    computacionales y relación costo-beneficio para toma de
+	    decisiones (Capacity Plan).
+	  </para>
+	</listitem>
+      </varlistentry>
+      <varlistentry>
+	<term>Componentes Comerciales</term>
+	<listitem>
+	  <para>
+	    Conocimientos generales de los principales productos
+	    tecnológicos del mercado y sus características.
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Otros</title>
+      <varlistentry>
+	<term></term>
+	<listitem>
+	  <para>
+	    Buenos conocimientos en diversas areas científicas
+	    incluyendo mecánica, química, física, biología y
+	    matemática.
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+  </sect1>
+  <sect1 label="">
+    <title>Experiencia Laboral</title>
+    <sect2 label="">
+      <title>World Tel-Fax Electronics, C.A. (2001-2005)</title>
+      <sect3 label="">
+	<title>Operador de Teléfonos (2001-2002)</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Atención al cliente especializada y enfocada a la
+	      búsqueda de
+	      información. <trademark>INFO-LINE</trademark>
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+      <sect3 label="">
+	<title>Transcriptor - Dpto. de Información
+	(2002)</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Coordinación del equipo de transcriptores de datos. Uso
+	      de herramientas para la generación de reportes y
+	      estadísticas, Quality Assurance, control de la
+	      productividad, entre otros.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+      <sect3 label="">
+	<title>Operador de Audio (2002-2003)</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Grabación, edición y digitalización de clips de audio
+	      para un IVR y contenidos multimedia.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+      <sect3 label="">
+	<title>Soporte Técnico (2003-2005)</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Atención a clientes internos y externos. Mantenimiento
+	      preventivo y correctivo de estaciones de trabajo y
+	      central telefónica.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Monitoreo de Redes y Servidores: Routers, Gateway SMS,
+	      IVR's, Switches, Servidores web - Correo - Base de
+	      Datos, Web Proxy-Cache, Portmaster, Central Telefónica,
+	      DNS, DHCP.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Soporte de aplicaciones. Mantenimiento de usuarios del
+	      sistema.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+    <sect2 label="">
+      <title>Teravision Technologies (2005-2006)</title>
+      <sect3 label="">
+	<title>Administrador de Redes</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Soporte a clientes internos. Mantenimiento de la red de
+	      área local. Mejora de servicios en las oficinas de
+	      desarrollo en Caracas con un proyecto de infraestructura
+	      que incluyó la contratación de un nuevo proveedor de
+	      enlace a internet y la adquisición de nuevos equipos de
+	      red.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Migración de aplicaciones y repositorios del sistemas de
+	      control de versiones a plataformas libres en ambiente
+	      UNIX. 
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Administración de las bases de datos en ambientes de
+	      desarrollo y producción. Replicación DualMaster.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Creación, implementación y ejecución de un Plan de
+	      Contingencia para el equipo de desarrollo.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Mantenimiento de un cd de instalación (Metadistribución
+	      basada en Knoppix) para un Network Appliance.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+    <sect2 label="">
+      <title>Banco de Desarrollo Económico y Social de Venezuela -
+      BANDES (2006-2007)</title>
+      <sect3 label="">
+	<title>Asistente Tecnológico</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Cableado Estructurado. Mantenimiento de la Red de Voz y
+	      Datos. Administración y mantenimiento de la Central
+	      Telefónica. 
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+      <sect3 label="">
+	<title>Analista de Seguridad de la Información</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Revisión, mantenimiento y actualización de las
+	      políticas de seguridad de datos de la institución.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Pruebas de penetración - Ethical Hacking
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Seguimiento al cumplimiento de las normas y políticas
+	      establecidas. Revisión de procedimientos para el
+	      intercambio de datos y comunicaciones con otras
+	      instituciones financieras y gubernamentales.
+	    </para>
+	  </listitem>
+	  <listitem>
+	    <para>
+	      Investigación.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+    <sect2 label="">
+      <title>Instituto Superior de Estudios e Investigaciones
+      Tecnológicas - ISEIT (2006-Presente)</title>
+      <sect3 label="">
+	<title>Instructor</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Miembro del <foreignphrase>pool</foreignphrase> de
+	      instructores del instituto para dictar diferentes
+	      cursos; principalmente el Programa Certificado Linux -
+	      PCL.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+
+    <sect2 label="">
+      <title>Corcaribe Tecnología, C.A.(2007 - 2008)</title>
+      <sect3 label="">
+	<title>Administrador de Redes - Consultor de Seguridad y
+	Plataformas</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Gestión de la plataforma tecnológica de la
+	      organización. Ejecución de proyectos de plataformas
+	      operativas e infraestructura. Consultorías. Soporte
+	      especializado.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+
+    <sect2 label="">
+      <title>Fundación La Villa del Cine (2008)</title>
+      <sect3 label="">
+	<title>Coordinador de Redes y Telecomunicaciones</title>
+	<itemizedlist>
+	  <listitem>
+	    <para>
+	      Gestión de la plataforma tecnológica. Proyectos de
+	      Infraestructura. Migracion de sistemas privativos a
+	      Software Libre.
+	    </para>
+	  </listitem>
+	</itemizedlist>
+      </sect3>
+    </sect2>
+  </sect1>
+  
+  
+  <sect1 label="">
+    <title>Adiestramiento: Cursos de Especialización y Certificaciones</title>
+    <sect2 label="">
+      <title>Cursos y Certificaciones del Area Tecnológica</title>
+      <sect3 label="">
+	<title>
+	  Gestión de Redes
+	</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Mejores prácticas en los aspectos técnicos y gerenciales
+	      para la administración de redes de voz y
+	      datos. Herramientas tecnológicas disponibles,
+	      configuración y uso.
+	    </seg>
+	    <seg>
+	      Universidad Central de Venezuela - Facultad de Ingeniería
+	    </seg>
+	    <seg>
+	      Prof. Vicenzo Mendillo (UCV)
+	    </seg>
+	    <seg>
+	      32 horas
+	    </seg>
+	    <seg>
+	      Cerfiticado de Aprobación
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>	  
+      </sect3>
+      <sect3 label="">
+	<title>Programa Profesional Certificado Linux</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Admimistración básica y avanzada de sistemas operativos
+	      basados en GNU/Linux. Bases teóricas e ideológicas del
+	      software Libre y su movimiento. Principales herramientas
+	      y aplicaciones de uso común en entornos parecidos a UNIX.
+	    </seg>
+	    <seg>
+	      Instituto Superior de Estudios e Investigaciones
+	      Tecnológicas (ISEIT)
+	    </seg>
+	    <seg>
+	      Ing. Carlos García - Ing. Jesús Rivero
+	    </seg>
+	    <seg>
+	      80 horas
+	    </seg>
+	    <seg>
+	      Administrador Certificado Linux
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Especialización de Seguridad con Linux</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Fundamentos y aplicaciones de la seguridad de datos con
+	      herramientas libres.
+	    </seg>
+	    <seg>
+	      Instituto Superior de Estudios e Investigaciones
+	      Tecnológicas (ISEIT)
+	    </seg>
+	    <seg>
+	      Ing. Ricardo Strusberg
+	    </seg>
+	    <seg>
+	      32 horas
+	    </seg>
+	    <seg>
+	      Administrador de Seguridad Certificado Linux
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Especialización de Redes con Linux</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Fundamentos teóricos y prácticos de redes de
+	      datos. Principales servicios de red e implementaciones
+	      libres.
+	    </seg>
+	    <seg>
+	      Instituto Superior de Estudios e Investigaciones
+	      Tecnológicas (ISEIT)
+	    </seg>
+	    <seg>
+	      Ing. Ernesto Hernandez-Novich
+	    </seg>
+	    <seg>
+	      32 horas
+	    </seg>
+	    <seg>
+	      Administrador de Redes Certificado Linux
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Certificación LPI</title>
+	<segmentedlist>
+	  <segtitle>Instituto</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <segtitle>LPI ID</segtitle>
+	  <segtitle>Verification Code</segtitle>
+	  <seglistitem>
+	    <seg>Linux Professional Institute</seg>
+	    <seg>Certificación
+	    Profesional Junior de Linux (LPIC-1)</seg> 
+	    <seg>LPI000092165</seg>
+	    <seg>k3z5ham8ph</seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+      
+      <sect3 label="">
+	<title>Taller de Desarrollo Rápido con Python</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Herramientas para el desarrollo de aplicaciones e
+	      interfaces gráficas de usuarios con el lenguaje de
+	      programación Python
+	    </seg>
+	    <seg>
+	      V Foro Mundial del Conocimiento Libre
+	    </seg>
+	    <seg>
+	      Ing. Francisco Palm
+	    </seg>
+	    <seg>
+	      8 horas
+	    </seg>
+	    <seg>
+	      Certificado de participación
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+      
+    </sect2>
+    <sect2 label="">
+      <title>Cursos de Creciemiento Profesional y Personal</title>
+
+      <sect3 label="">
+	<title>Voz y Dicción</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Manipulación de la voz para efectos comunicacionales.
+	    </seg>
+	    <seg>
+	      Lic. Adriana Romero
+	    </seg>
+	    <seg>
+	      8 horas
+	    </seg>
+	    <seg>
+	      Certificado de participación
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Análisis de Puesto</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Manipulación de la voz para efectos comunicacionales.
+	    </seg>
+	    <seg>
+	      INCE
+	    </seg>
+	    <seg>
+	      40 horas
+	    </seg>
+	    <seg>
+	     Certificado de aprobación
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Psicología Aplicada a la Supervisión</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Manejo de situaciones laborales y liderazgo de grupos de trabajo.
+	    </seg>
+	    <seg>
+	      INCE
+	    </seg>
+	    <seg>
+	      20 horas
+	    </seg>
+	    <seg>
+	     Certificado de aprobación
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+      
+      <sect3 label="">
+	<title>Gerencia a través de la Calidad Total</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Conceptos y estrategias a seguir para la optimización de
+	      procesos en pro de la calidad. Mejoramiento contínuo.
+	    </seg>
+	    <seg>
+	      INCE
+	    </seg>
+	    <seg>
+	      100 horas
+	    </seg>
+	    <seg>
+	     Certificado de aprobación
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+    </sect2>
+  </sect1>
+</article>
