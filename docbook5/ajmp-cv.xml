@@ -9,8 +9,8 @@
   <articleinfo>
     <revhistory>
       <revision>
-	<revnumber>sparc-2010.08.31</revnumber>
-	<date>Agosto 2010</date>
+	<revnumber>1.6.2010.03.11</revnumber>
+	<date>Marzo 2010</date>
       </revision>
     </revhistory>
   </articleinfo>
@@ -18,12 +18,12 @@
     <title>Información de Contacto</title>
     <address>
       <email>amijaresp@gmail.com</email>
-      <email>amijares@mcs.com.ve</email>
-      <street>Urb. Vicente Emilio Sojo Edf. D3 Apto D3-41 </street>
-      <city>Guatire</city> <state>Miranda</state> <postcode>1221</postcode>
-      <country>Venezuela</country>
-      <phone id="homephone">+58(212)880.04.57</phone>
-      <phone id="cellphone">+58(416)629.09.00</phone>
+      <email>amijares@mcs.com.ve</email> <street>Av. Páez, Res. 2000,
+      Edf. Cecilia, piso 3, apto 28. El Paraíso </street>
+      <city>Caracas</city> <state>DC</state> <postcode>1020</postcode>
+      <country>Venezuela</country> <phone
+      id="homephone">+58(212)880.04.57</phone> <phone
+      id="cellphone">+58(416)629.09.00</phone>
     </address>
   </sect1>
   <sect1 label="">
@@ -31,7 +31,7 @@
     <para>
       <mediaobject>
 	<imageobject>
-	  <imagedata fileref="../img/foto.png" align="right">
+	  <imagedata fileref="foto.png" align="right">
 	</imageobject>
       </mediaobject>
       <literallayout>
@@ -40,7 +40,6 @@
 	Fecha de Nacimiento: 23 de octubre de 1979
 	Lugar de Nacimiento: Caracas, Venezuela
 	Estado Civíl: Soltero
-	Nivel de Instrucción: Profesional en el área de Computación
       </literallayout>
     </para>
     <sect2 label="">
@@ -119,11 +118,12 @@
 	</para>
 	<para>
           Actualmente me encuentro en un proceso de preparación
-          autodidacta en el área de desarrollo de aplicaciones web y
-          soluciones verticales para necesidades específicas, bajo la
-          filosofía MVC para los ambientes web, con la plataforma Ruby
-          on Rails, y Perl para otras soluciones. También he estado
-          enfocado en profundizar mis conocimientos en la
+          autodidacta en el área de desarrollo de aplicaciones, bajo
+          la filosofía MVC, con el framework Ruby on Rails; y con
+          mayor profundidas en la programación de soluciones
+          verticales y especializadas, que den solución a problemas
+          muy específicos, usando Perl como lenguaje. También he
+          estado enfocado en profundizar mis conocimientos en la
           administración del sistema operativo FreeBSD, así como la
           implementación de "Firewalls Reactivos" (IDS/IPS) con los
           frameworks PF, ipfw e iptables y centrales telefónicas con
@@ -661,6 +661,23 @@
 	  </seglistitem>
 	</segmentedlist>
       </sect3>
+
+      <sect3 label="">
+	<title>Certificación LPI</title>
+	<segmentedlist>
+	  <segtitle>Instituto</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <segtitle>LPI ID</segtitle>
+	  <segtitle>Verification Code</segtitle>
+	  <seglistitem>
+	    <seg>Linux Professional Institute</seg>
+	    <seg>Certificación
+	    Profesional Junior de Linux (LPIC-1)</seg> 
+	    <seg>LPI000092165</seg>
+	    <seg>k3z5ham8ph</seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
       
       <sect3 label="">
 	<title>Taller de Desarrollo Rápido con Python</title>
@@ -692,19 +709,6 @@
 	</segmentedlist>
       </sect3>
       
-      <sect3 label="">
-	<title>Certificación LPI</title>
-	<segmentedlist>
-	  <segtitle>Instituto</segtitle>
-	  <segtitle>Número de Examen Aprobado</segtitle>
-	  <segtitle>LPI ID</segtitle>
-	  <seglistitem>
-	    <seg>Linux Professional Institute</seg> 
-	    <seg>101</seg>
-	    <seg>LPI000092165</seg>
-	  </seglistitem>
-	</segmentedlist>
-      </sect3>
     </sect2>
     <sect2 label="">
       <title>Cursos de Creciemiento Profesional y Personal</title>
@@ -806,57 +810,5 @@
 	</segmentedlist>
       </sect3>
     </sect2>
-  </sect1>
-  <sect1>
-    <title>Participación en Proyectos</title>
-    <segmentedlist>
-      <segtitle>Proyecto</segtitle>
-      <segtitle>Cliente</segtitle>
-      <segtitle>Descripción</segtitle>
-      <seglistitem>
-	<seg>
-	  Fortalecimiento de la Plataforma Tecnológica
-	</seg>
-	<seg>
-	  CONVIASA
-	</seg>
-	<seg>
-	  Instalación y configuración de un Controlador de Dominio
-	  Primario bajo ambiente GNU/Linux, migración de servicio de
-	  correo electrónico, instalación de un servidor DHCP y
-	  centralización de usuarios en un directorio
-	  (LDAP). Optimización del rendimiento del sistema operativo y
-	  <foreignphrase>hardening</foreignphrase>.
-	</seg>
-      </seglistitem>
-      <seglistitem>
-	<seg>
-	  Automatización y Centralización de Respaldos con Software Libre
-	</seg>
-	<seg>
-	  Instituto Nacional de Tierras
-	</seg>
-	<seg>
-	  Instalación y configuración del software de
-	  respaldo. Creación de las rutinas, catálogos y medios de
-	  almacenamiento para las tareas y programación periódica de
-	  las mismas. Integración con librería LTO-4 de HP.
-	</seg>
-      </seglistitem>
-      <seglistitem>
-	<seg>
-	  Instalación y Configuración de Servidores para Centro de
-	  Operaciones alterno de CADIVI
-	</seg>
-	<seg>
-	  MCM de Venezuela C.A.
-	</seg>
-	<seg>
-	  Instalación y normalización del sistema operativo para los
-	  servidores alternos de CADIVI. Migración de aplicaciones y
-	  reforzamiento de aspectos de seguridad.
-	</seg>
-      </seglistitem>
-    </segmentedlist>
   </sect1>
 </article>

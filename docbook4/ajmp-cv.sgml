@@ -31,7 +31,7 @@
     <para>
       <mediaobject>
 	<imageobject>
-	  <imagedata fileref="foto.png" align="right">
+	  <imagedata fileref="../img/foto.png" align="right">
 	</imageobject>
       </mediaobject>
       <literallayout>
