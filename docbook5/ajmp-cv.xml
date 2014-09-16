@@ -1,6 +1,9 @@
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook V4.2//EN" []>
+<?xml version="1.0" encoding="utf-8"?>
 
-<article lang="es">
+<article xmlns="http://docbook.org/ns/docbook"
+	 xmlns:xi="http://www.w3.org/2001/XInclude"
+	 xmlns:xlink="http://www.w3.org/1999/xlink"
+	 xml:lang="es">
   
   <title>Alberto Mijares</title>
 
@@ -14,11 +17,12 @@
       </revision>
     </revhistory>
   </articleinfo>
-  <Sect1 id="contactInfo" label="">
+  <sect1 id="contactInfo" label="">
     <title>Información de Contacto</title>
     <address>
       <email>amijaresp@gmail.com</email>
-      <email>amijares@mcs.com.ve</email> <street>Av. Páez, Res. 2000,
+      <email>amijares@mcs.com.ve</email> 
+      <street>Av. Páez, Res. 2000,
       Edf. Cecilia, piso 3, apto 28. El Paraíso </street>
       <city>Caracas</city> <state>DC</state> <postcode>1020</postcode>
       <country>Venezuela</country> <phone
@@ -31,7 +35,7 @@
     <para>
       <mediaobject>
 	<imageobject>
-	  <imagedata fileref="foto.png" align="right">
+	  <imagedata fileref="../../img/foto.png" align="right"/>
 	</imageobject>
       </mediaobject>
       <literallayout>
@@ -220,7 +224,7 @@
 	    [E-] Bash
 	  </para>
 	  <para>
-            [E-] Sed & Awk
+            [E-] Sed &amp; Awk
 	  </para>
 	</listitem>
       </varlistentry>

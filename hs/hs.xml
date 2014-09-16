@@ -1,0 +1,228 @@
+<article xmlns="http://docbook.org/ns/docbook"
+	 xmlns:xi="http://www.w3.org/2001/XInclude"
+	 xmlns:xlink="http://www.w3.org/1999/xlink"
+	 xml:lang="es">
+
+  <title>Human Skills</title>
+  <articleinfo>
+    <authorgroup>
+      <author>
+	<surname>Chappell</surname>
+	<firstname>David</firstname>
+	<affiliation>
+	  <orgname>Procter and Gamble</orgname>
+	  <address><email>chappell.da@pg.com</email></address>
+	</affiliation>
+      </author>
+      <othercredit>
+	<surname>Imass</surname>
+	<firstname>Alejandro</firstname>
+	<authorblurb>
+	  <para>
+	    This text was part of a presentation ("Applying S88 - The
+	    Human Factor") shown at the World Batch Forum Chicago
+	    2004, and I asked Dave permission to use it this part of
+	    the text for personal matters. I constantly use this scale
+	    to grade myself on the different skills and disciplines
+	    that I work in and to explain to other people what these
+	    levels mean, so I reference them here instead of copying
+	    and re-distributing this content in my own documents.  If
+	    you are reading this, it is because I referenced this URL
+	    from another document solely for the purposes expalined
+	    above. If you have got here by any other means (Google or
+	    mere accident) please do not copy or otherwise use this
+	    information without contacting David Chappel at the e-mail
+	    address above and get his written permission or contact me
+	    to explain why you would like to link or use this
+	    information and I in turn will contact David and explain
+	    it to him.
+	  </para>
+	</authorblurb>
+      </othercredit>
+    </authorgroup>
+  </articleinfo>
+  <para>
+    All individuals develop Skills throughout their lives. There are far
+    too many Skill Areas for all people to be exposed to every one, so we
+    must all pick and choose which ones are important to us, both in our
+    personal and professional lives.
+  </para>
+  <para>
+    Many skill areas depend upon other skill areas, and when you have
+    a large enough grouping it can be thought of as a
+    Discipline. Mathematics provides a good example of a
+    discipline. There are many basic skill areas, such as addition,
+    subtraction, multiplication, and division. All higher level
+    mathematic disciplines, such as geometry and algebra require these
+    basic skills.
+  </para>
+  <para>
+    As a person develops capability in a skill area, there are
+    different levels of proficiency they can expect to achieve. This
+    is based upon many factors. Some dominating factors are personal
+    aptitude, personal attitude, training, technical mentoring, and
+    experience.
+  </para>
+  <para>
+    Continuing with the mathematics example: as students learn basic
+    arithmetic, they receive training using textbooks and instruction
+    from a teacher. Some students with the right
+    <emphasis>"aptitude"</emphasis> will get the concepts very quickly
+    and progress rapidly in their proficiency to apply that
+    skill. Others will require more mentoring by the teacher to
+    progress. <emphasis>Only by "experience"</emphasis> or practice,
+    practice, practice will anyone truly learn a skill. Some skills
+    require a lot more practice than others.
+  </para>
+  <para>
+    <emphasis>
+      Personal attitude (open and questioning versus arrogant and
+      self-important) plays a significant role in individual success
+      or failure in this development process. It takes a great amount
+      of mentoring to overcome the wrong attitude, and many mentors
+      are not willing to invest the necessary energy and time.
+    </emphasis>
+  </para>
+  <para>
+    Proper mentoring <emphasis>can overcome aptitude</emphasis>, and
+    help individuals achieve their highest "level of capability". On
+    the other hand, inadequate mentoring can provide people with the
+    opportunity to learn many good lessons from their mistakes. This
+    latter process is very ineffective as it only teaches "what not to
+    do next time", without any advice on "what to do the next time".
+    <emphasis> A proper balance between inadequate mentoring and
+    over-mentoring (dictatorship, actually) must be maintained, so as
+    not to squash innovation.  </emphasis> There are many ways that
+    these levels of capability can be measured. Grades in education
+    are one:
+  </para>
+  <para>
+    A - Excellent, B - Good, C - Average, D - Inadequate and F  Failing. 
+  </para>
+  <section>
+    <title>The Human Skills Grading System</title> 
+    <para>
+      What were your math grades? One grading system that I find
+      useful in industry is represented in the 5 categories, or
+      levels, shown in the following Figure:
+    </para>
+    <graphic fileref="figure1.svg" scale="40"/>
+    <para>
+      These categories are beginner, novice, apprentice, expert and
+      master. As the pyramid suggests, there are always a lot more
+      people at the lower levels than the upper. The common
+      characteristics of each level are described in the Table below:
+      Common Skills Categories and Characteristics.
+    </para>
+    <table>
+      <title>
+	Common Skill Categories Level Common Skills Categories and
+	Characteristics
+      </title>
+      <tgroup cols="2">
+	<tbody>
+	  <row>
+	    <entry>Beginner</entry>
+	    <entry>
+	      Beginners have the "book-knowledge" of what the skill or
+	      discipline is about. They have little to no practical
+	      knowledge or experience, and <emphasis>they require
+	      constant attention</emphasis>. At this stage, they have
+	      an awareness of what they are about, with little to no
+	      real knowledge on what to do with their "bookknowledge".
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>Novice</entry>
+	    <entry>
+	      Novices have progressed to the point of general,
+	      real-world, practical knowledge about the skill or
+	      discipline. They <emphasis>usually feel they have
+	      mastered the technology, and they will proceed to apply
+	      it with marginal results</emphasis>. They
+	      generally<emphasis> don't know enough to understand what
+	      they don't know</emphasis>, and they require a great
+	      amount of direction from those who have a higher level
+	      of skill. If an individual never advances beyond this
+	      level, <emphasis>they often feel and act as if they have
+	      achieved a much higher level than they are entitled
+	      to</emphasis>, leading to confusion and failed
+	      endeavors. They are often energetic, enthusiastic, and
+	      fearless in the application of the skill or discipline.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>Apprentice</entry>
+	    <entry>
+	      Apprentices have progressed to the point where they have
+	      effective practical knowledge about the skill or
+	      discipline, and they can successfully apply that
+	      knowledge. Some people are quite happy to stay at this
+	      level, and they decide not to invest additional effort
+	      to advance. <emphasis>Others have no choice, as they
+	      have reached the highest level that they are capable of
+	      achieving, and no amount of effort will enable them to
+	      advance. <emphasis>A few will progress on to the higher
+	      skill levels.</emphasis> </emphasis>They have respect
+	      for what they are doing, and they know what not to do,
+	      <emphasis>and when to seek advice</emphasis>.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>Expert</entry>
+	    <entry>
+	      Experts have advanced beyond practical knowledge to
+	      <emphasis>deep understanding, and they can leverage
+	      their skills in ways that have never been thought of
+	      before</emphasis>. They are able to mentor the beginners
+	      and novices and provide resource help for the
+	      apprentices.
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>Master</entry>
+	    <entry>
+	      <emphasis>Masters have acquired wisdom</emphasis> as
+	      well as understanding, and they are able to incorporate
+	      new learning back into the skill or discipline in such a
+	      way that novices and apprentices can make use of them.
+	      <emphasis> A master can advance a discipline and improve
+	      a technology.</emphasis> Masters must take care as they
+	      use their skill, <emphasis>so those outside the
+	      discipline do not get a false impression as to the ease
+	      with which a discipline can be applied.  Often those
+	      outside a discipline will expect master level
+	      performance from apprentice and lower
+	      individuals.</emphasis>
+	    </entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+    <para>
+      If you have a sufficient capability level in a related skill or
+      discipline, moving through the lower skill categories in a new
+      skill area can require much less time. Take physics, for
+      example. If you have achieved to an expert level of capability
+      in geometry and algebra, getting to an apprentice level in
+      physics can be achieved much more quickly and successfully than
+      if your starting point is a master level in government.
+    </para>
+    <para>
+      While both individuals are excellent intellectually and are
+      performing well overall, one will have an advantage over the
+      other in developing capability in the new skill area of
+      physics. It doesnt indicate the final level of capability each
+      will achieve, just how quickly and with how much effort each
+      will be able to move to the apprentice level. Then the practice,
+      practice, practice starts. As you can guess, it is very
+      difficult, and perhaps impossible, to predict who will excel at
+      a discipline, how long it will take them to advance, and who
+      will and will not make it. When developing someones skill,
+      <emphasis>it is generally possible to force them to the
+      apprentice level. Moving beyond that level requires desire and
+      effort on the part of the individual <emphasis>and can not be
+      forced by any organization or person.</emphasis></emphasis>
+    </para>
+  </section>
+</article>
