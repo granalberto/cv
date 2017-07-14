@@ -7,13 +7,13 @@
   
   <title>Alberto Mijares</title>
 
-  <subtitle>Administrador de Sistemas - Consultor de Tecnología y
+  <subtitle>Administrador de Sistemas - Consultor de Tecnologías y
   Seguridad de la Información</subtitle>
   <articleinfo>
     <revhistory>
       <revision>
-	<revnumber>1.6.2010.03.11</revnumber>
-	<date>Marzo 2010</date>
+	<revnumber>2.0.2014.09.16</revnumber>
+	<date>Septiembre 2014</date>
       </revision>
     </revhistory>
   </articleinfo>
@@ -22,12 +22,15 @@
     <address>
       <email>amijaresp@gmail.com</email>
       <email>amijares@mcs.com.ve</email> 
-      <street>Av. Páez, Res. 2000,
-      Edf. Cecilia, piso 3, apto 28. El Paraíso </street>
-      <city>Caracas</city> <state>DC</state> <postcode>1020</postcode>
-      <country>Venezuela</country> <phone
-      id="homephone">+58(212)880.04.57</phone> <phone
-      id="cellphone">+58(416)629.09.00</phone>
+      <street>
+	Terrazas del Caroní, parcela 12, casa 2-D
+      </street>
+      <city>Puerto Ordáz</city>
+      <state>Estado Bolívar</state>
+      <postcode>8051</postcode>
+      <country>Venezuela</country>
+      <phone
+      id="cellphone">+1(849)868.92.46</phone>
     </address>
   </sect1>
   <sect1 label="">
@@ -43,7 +46,7 @@
 	C.I.: V-14.130.425
 	Fecha de Nacimiento: 23 de octubre de 1979
 	Lugar de Nacimiento: Caracas, Venezuela
-	Estado Civíl: Soltero
+	Estado Civíl: Casado
       </literallayout>
     </para>
     <sect2 label="">
@@ -84,9 +87,10 @@
 	  Sólidos conocimientos de las ciencias fácticas y un gran
 	  interés por las tecnologías de información, las
 	  telecomunicaciones y la innovación, me han mantenido ávido y
-	  en un proceso de aprendizaje contínuo; permitiéndome
-	  ser competitivo y productivo; basándome siempre en las
-	  mejores prácticas y documentación disponible.
+	  en un proceso de aprendizaje contínuo. El manejo de buenas
+	  herramientas y metodologías me permiten ser competitivo y
+	  productivo; basándome siempre en las mejores prácticas y
+	  sacando provecho de la documentación disponible.
 	</para>
       </sect3>
       <sect3 label="">
@@ -111,27 +115,26 @@
       <sect3 label="">
 	<title>Presente y Futuro</title>
 	<para>
-	  Actualmente como consultor independiente, bajo la figura
-	  jurídica de una firma personal: <ulink
-	  url="http://www.mcs.com.ve">Mijares Consultoría y Sistemas
-	  SL</ulink>, constituída hace poco más de un año. También
-	  formo parte del <foreignphrase>staff</foreignphrase> de
-	  instructores del <ulink
-	  url="http://ve.iseit.net">ISEIT</ulink> para sus cursos de
-	  capacitación PCL y tópicos especiales.
+	  Actualmente desempeño el cargo de Vicepresidente de
+	  Ingeniería en Futurelink Corporation <ulink
+	  url="http://futurelinkcorporation.com">Futurelink</ulink>,
+	  constituída hace casi 6 años. Durante este tiempo he tenido
+	  la oportunidad de brindar soluciones a diversas empresas de
+	  distintos ramos, haciendo uso de las tecnologías de
+	  información y comunicación, mejorando sus procesos y
+	  disminuyendo costos operativos.
 	</para>
 	<para>
-          Actualmente me encuentro en un proceso de preparación
-          autodidacta en el área de desarrollo de aplicaciones, bajo
-          la filosofía MVC, con el framework Ruby on Rails; y con
-          mayor profundidas en la programación de soluciones
-          verticales y especializadas, que den solución a problemas
-          muy específicos, usando Perl como lenguaje. También he
-          estado enfocado en profundizar mis conocimientos en la
-          administración del sistema operativo FreeBSD, así como la
-          implementación de "Firewalls Reactivos" (IDS/IPS) con los
-          frameworks PF, ipfw e iptables y centrales telefónicas con
-          proyectos libres de Voz sobre IP como Asterisk y Callweaver.
+	  Haber trabajado en varias fábricas de software me ha
+	  permitido adquirir una visión completa de las etapas del
+	  desarrollo de aplicaciones. Gracias a esta visión se me hace
+	  fácil identificar necesidades y aportar soluciones, haciendo
+	  uso de herramientas tecnológicas apropiadas en cada caso. Es
+	  por esto que siento un gran interés en el área que
+	  actualmente se denomina
+	  <foreignphrase>DevOps</foreignphrase>, ya que me permite
+	  aplicar mis conocimientos y experiencia en la creación de
+	  productos, apoyado por un grupo de programadores.
 	</para>
       </sect3>
     </sect2>
@@ -139,23 +142,23 @@
   <sect1 label="">
     <title>Historia Laboral</title>
     <para>
-      Con un total de 12 años de experiencia laboral, 8 años
-      involucrado con telecomunicaciones y sistemas de información, 6
+      Con un total de 16 años de experiencia laboral, 13 años
+      involucrado con telecomunicaciones y sistemas de información, 11
       administrando plataformas y brindando soporte y, 3 años de
       experiencia como instructor de programas certificados de
       administración de sistemas GNU/Linux. Mis áreas de fortaleza,
       técnicamente hablando, son la administración de sistemas sobre
-      plataformas libres tales como GNU/Linux y FreeBSD; gestión,
-      monitoreo y análisis de redes IP; creación, configuración,
-      mantenimiento y <foreignphrase>hardening</foreignphrase> de
-      sistemas operativos, servicios y aplicaciones de redes sobre
-      TCP/IP.
+      plataformas <foreignphrase>open source</foreignphrase> tales
+      como GNU/Linux y FreeBSD; gestión, monitoreo y análisis de redes
+      IP; creación, configuración, mantenimiento y
+      <foreignphrase>hardening</foreignphrase> de sistemas operativos,
+      servicios y aplicaciones de red sobre TCP/IP.
     </para>
   </sect1>
   <sect1 label="">
     <title>Conocimientos</title>
     <para>
-      Las siguiente sección señala mis conocimientos en las diferentes
+      La siguiente sección señala mis conocimientos en las diferentes
       disciplinas de las tecnologías de la información. Al lado de
       cada item hay una clave que indica el nivel adquirido en cada
       uno. Los niveles han sido graduados de acuerdo a la siguiente
@@ -183,10 +186,10 @@
 	<term>Basados en <trademark>UNIX</trademark></term>
 	<listitem>
 	  <para>
-	    [E-] Debian GNU/Linux y derivados, Fedora y derivados
+	    [E] Debian GNU/Linux y derivados, Fedora y derivados
 	  </para>
 	  <para>
-	    [E-] FreeBSD
+	    [E+] FreeBSD
 	  </para>
 	  <para>
 	    [N] IBM <trademark>AIX</trademark>
@@ -213,7 +216,12 @@
 	</term>
 	<listitem>
 	  <para>
-	    [A-] C, Perl, Ruby, Python
+	    [A-] C, Ruby, Python
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    [E-] Perl
 	  </para>
 	</listitem>
       </varlistentry>
@@ -221,7 +229,7 @@
 	<term>Administración de Sistemas</term>
 	<listitem>
 	  <para>
-	    [E-] Bash
+	    [E] bash, sh
 	  </para>
 	  <para>
             [E-] Sed &amp; Awk
@@ -243,10 +251,10 @@
 	<term>Instalación y Mantenimiento</term>
 	<listitem>
 	  <para>
-	    [A-E] MySQL
+	    [E-] MySQL
 	  </para>
 	  <para>
-	    [A+] PostgreSQL
+	    [E-] PostgreSQL
 	  </para>
 	</listitem>
       </varlistentry>
@@ -280,11 +288,11 @@
 	<term></term>
 	<listitem>
 	  <para>
-	    [A+] Emacs, OpenOffice, Planner, Audacity, Wireshark, Dia, The
-	    Gimp, Blender, Cinelerra, Evolution - Thunderbird,
-	    Inkscape, K3B, GNUCash, dotProject, SugarCRM, Moodle,
-	    NetOffice, DocBook, LaTeX-Beamer y una amplia variedad de
-	    aplicaciones libres y comerciales.
+	    [A+] Emacs, LibreOffice, Planner, Audacity, Wireshark,
+	    Dia, The Gimp, Evolution - Thunderbird, Inkscape, K3B,
+	    GNUCash, dotProject, SugarCRM, Moodle, DocBook, Org-mode,
+	    LaTeX, y una amplia variedad de aplicaciones libres y
+	    comerciales.
 	  </para>
 	</listitem>
       </varlistentry>
@@ -299,7 +307,8 @@
 	    computación, compatibilidad de componentes, detección de
 	    fallas de hardware, evaluación de rendimiento, necesidades
 	    computacionales y relación costo-beneficio para toma de
-	    decisiones (Capacity Plan).
+	    decisiones a corto, mediano y largo plazo (Capacity
+	    Planning).
 	  </para>
 	</listitem>
       </varlistentry>
@@ -485,7 +494,7 @@
     </sect2>
     <sect2 label="">
       <title>Instituto Superior de Estudios e Investigaciones
-      Tecnológicas - ISEIT (2006-Presente)</title>
+      Tecnológicas - ISEIT (2006 - 2010)</title>
       <sect3 label="">
 	<title>Instructor</title>
 	<itemizedlist>
@@ -494,7 +503,7 @@
 	      Miembro del <foreignphrase>pool</foreignphrase> de
 	      instructores del instituto para dictar diferentes
 	      cursos; principalmente el Programa Certificado Linux -
-	      PCL.
+	      PCL y la especialización de Correo Electrónico.
 	    </para>
 	  </listitem>
 	</itemizedlist>

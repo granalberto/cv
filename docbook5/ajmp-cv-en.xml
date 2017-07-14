@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<article xmlns="http://docbook.org/ns/docbook"
+	 xmlns:xi="http://www.w3.org/2001/XInclude"
+	 xmlns:xlink="http://www.w3.org/1999/xlink"
+	 xml:lang="en">
+  
+  <title>Alberto Mijares</title>
+
+  <subtitle>DevOps Engineer - Information Technologies and
+  Data Security Consultant</subtitle>
+  
+
+  <sect1 label="">
+    <title>Personal Information</title>
+    <para>
+      <literallayout>
+	Name: Alberto José Mijares Paredes
+	Birth Date: October 23, 1979
+	Birthplace: Caracas, Venezuela
+	Marital Status: Married
+      </literallayout>
+    </para>
+        <address>
+      <email>amijaresp@gmail.com</email>
+      <street>
+	Av. Independencia #901, torre G-34, apto. B7. Zona Universitaria.
+      </street>
+      <city>Santo Domingo</city>
+      <state>Distrito Nacional</state>
+      <postcode>10103</postcode>
+      <country>Dominican Republic</country>
+      <phone id="cellphone">+1(849)858.92.46</phone>
+    </address>
+
+    <sect2 label="">
+      <title>Personal Profile</title>
+      <para>
+	I see myself as a solutions provider. My fundamentals are:
+	stick to the standards, follow the principles of Unix and
+	write good documentation.
+      </para>
+      <para>
+	I work very well socially, which is key for management
+	positions. I like karaoke parties and cooking with
+	friends. Eventually, I go out for running or swimming, wich
+	helps me to not get too fat (I love eating).
+      </para>
+    </sect2>
+  </sect1>
+  <sect1 label="">
+    <title>Skills</title>
+    <para>
+      The next section points my skills in different IT
+      disciplines. The levels have been graduated according the next
+      scale:
+    </para>
+    <simplelist>
+      <member>[M] Master</member>
+      <member>[E] Expert</member>
+      <member>[A] Apprentice</member>
+      <member>[N] Novice</member>
+      <member>[P] Beginner</member>
+    </simplelist>
+    <para>
+      For more details about this scale please read the electronic
+      document <ulink url="https://www.mcs.com.ve/hs/">The Human Skills
+      Grading System</ulink>.
+    </para>
+    <itemizedlist>
+      <title>Programming Languages</title>
+      <listitem>
+	<para>[A+] Perl 5 (apprentice, becoming expert)</para>
+      </listitem>
+      <listitem>
+	<para>[P] Haskell, C</para>
+      </listitem>
+      <listitem>
+	<para>[E] Bourn Shell (Shell Scripting)</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Operative Systems</title>
+      <listitem>
+	<para>[E] FreeBSD</para>
+      </listitem>
+      <listitem>
+	<para>[A+] Debian GNU/Linux, CentOS, Ubuntu Server</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Databases</title>
+      <listitem>
+	<para>[E] PostgreSQL, MySQL</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Orchestation</title>
+      <listitem>
+	<para>[E] Ansible</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Virtualization</title>
+      <listitem>
+	<para>[E] Bhyve, KVM, VirtualBox</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Services and Applications</title>
+      <listitem>
+	<para>
+	  Apache, Nginx, Sendmail, Postfix, OpenSMTPD, Dovecot,
+	  AntiSPAM, Packet Filter (PF), Squid, Snort, Bro, Suricata,
+	  Nagios, Munin, NTP, DHCP, Bind, Unbound, ELK stack, UWSGI,
+	  IPSec, Git, Asterisk, RADIUS, OpenLDAP, Kannel, Metasploit
+	  Framework and many others. The level for all these items is
+	  located between A and E.
+	</para>
+	<para>
+	  I also have experience working with CMS's like Wordpress,
+	  e-Commerce solutions like Magento, educative portals like
+	  Moodle, tracking systems like Request Tracker (RT),
+	  management systems like dotProject and Redmine, CRM's like
+	  SugarCRM, accounting software like GNUCash, personal cloud
+	  storage with ownCloud, print servers with CUPS, SAMBA, NFS,
+	  FTP, ZFS, etc.
+	</para>
+      </listitem>
+    </itemizedlist>
+    
+  </sect1>
+  <sect1 label="">
+    <title>Working Experience</title>
+    <para>
+      I've been working in the field of Information Technologies for
+      more than 15 years, starting from basic support activities for
+      end users until getting into very complex activities like the
+      planification and execution of projects for mission-critical
+      tasks. I also have had the opportunity for teach, wich is a
+      great enriching experience.
+    </para>
+    <para>
+      My confort zone is in around the FreeBSD project, which provides
+      an excellent OS, documentation and development ecosystem;
+      accompanied by an excellent community of hackers. I also was
+      very savvy in the Linux world some years ago; however, the
+      latest changes introduced into the main distributions have
+      dissappointed me a lot. This is a matter of preference, though,
+      I can work on any Unix-like environment.
+    </para>
+    <para>
+      My orientation has always been biased to what happens in the
+      backstages (Infrastructure/Arquitechture) instead of the
+      scenaries (User Experience/Interfaces), closely related to
+      develoment cycles (DevOps). That's true even before this
+      terminology came to existence.
+    </para>
+    <para>
+      My working experience can be splited in two: projects
+      executed as freelance consultant and positions occupied in some
+      companies.
+    </para>
+    
+    <sect2>
+      <title>Positions</title>      
+      <sect3>
+	<title>Future Link Corporation (2016 - 2017)</title>
+	<sect4>
+	  <title>VP Engineering</title>
+	  <para>
+	    While I still was in Venezuela, Future Link sponsored my
+	    work permit and visa for Dominican Republic. In my short
+	    period with this company I was able to:
+	  </para>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Perform a PCI compliance self-asessment and suggest
+		improvements.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Participate in the recruitment process of a Junior
+		System Adminitrator, giving my recommendations for a
+		specific candidate, who resulted elected and was able to
+		perform assigned tasks with outstanding results.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Re-assign resources from one project to another, where
+		the deadline was very close and manpower was required.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Creation and update of required packages within the
+		framework pkgsrc, from NetBSD. Server updates.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+      </sect3>  
+      
+      
+      <sect3 label="">
+	<title>Higher Institute of Technological Studies and
+	Investigations - ISEIT (2006 - 2010)</title>
+	<sect4 label="">
+	  <title>Instructor</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Member of professors staff, mainly for the "Certified
+		Linux Administrator" program.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+      </sect3>
+      <sect3 label="">
+	<title>"La Villa del Cine" Foundation (2008)</title>
+	<sect4 label="">
+	  <title>Networking and Telecommunications Coordinator</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Network and systems administration. Coordination of tech
+		support staff. Migration of private solutions to FOSS
+		alternatives.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+      </sect3>
+      
+      <sect3 label="">
+	<title>Corcaribe Tecnología, C.A.(2007 - 2008)</title>
+	<sect4 label="">
+	  <title>Network Administrator - Consultant</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Maintenance of the IT platform. Consultancy for external
+		customers. Specialized support.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+      </sect3>
+      
+      <sect3 label="">
+	<title> Economic and Social Development Bank of Venezuela -
+	BANDES (2006-2007)</title>
+	<sect4 label="">
+	  <title>Tech Assistant</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Structured cabling. Data and voice networks
+		maintenance. PBX administration.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+	<sect4 label="">
+	  <title>Security Information Analyst</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Monitoring, review and updating of the institution's
+		security policies.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Penetration Testing - Ethical Hacking
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Monitor compliance of established policies. Checking of
+		procedures for communications and data exchange between
+		financial and government institutions.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Research
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+      </sect3>
+      
+      
+      <sect3 label="">
+	<title>Teravision Technologies (2005-2006)</title>
+	<sect4 label="">
+	  <title>Network Administrator</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Internal customers support. Creation and maintenance of
+		LAN services. Network rewiring and hiring of new ISP.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Migration of version control system from CVS on Win32 to
+		SVN on Linux.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Setup of a HA database cluster for
+		applications. Separation of development and production
+		environments.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Creation and implementation of a BCP for the development
+		team.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Maintenance of a software appliance.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+      </sect3>
+      
+      <sect3 label="">
+	<title>World Tel-Fax Electronics, C.A. (2001-2005)</title>
+	<sect4 label="">
+	  <title>Telephone Operator (2001-2002)</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Call center operator. Search of specialized information
+		service <trademark>INFO-LINE</trademark>.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+	<sect4 label="">
+	  <title>Transcriptor - Information Department (2002)</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Data transcribers team coordination. Creation of
+		reporting and statistics tools, QA, productivity
+		measuring, among others.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+	<sect4 label="">
+	  <title>Audio Operator (2002-2003)</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Recording, edition and conversion of audio clips for IVR
+		systems and multimedia contents.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+	<sect4 label="">
+	  <title>Tech Support (2003-2005)</title>
+	  <itemizedlist>
+	    <listitem>
+	      <para>
+		Internal and external customers support. Preventive and
+		corrective maintenance or workstations. PBX
+		administration.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Servers and network monitoring: Routers, Gateway SMS,
+		IVR's, Switches, web server - Email - Databases, Web
+		Proxy-Cache, Portmaster, PBX, DNS, DHCP.
+	      </para>
+	    </listitem>
+	    <listitem>
+	      <para>
+		Soporte de aplicaciones. Mantenimiento de usuarios del
+		sistema.
+	      </para>
+	    </listitem>
+	  </itemizedlist>
+	</sect4>
+      </sect3>
+    </sect2>
+
+    <sect2>
+      <title>Projects</title>
+      
+    <sect3 label="">
+      <title>Freelance Consultant (2008 - 2016)</title>
+      <para>
+	Along almost 9 years of activities as a consultant, I've been
+	involved in many projects and activities. Here are the most
+	important projects, the company involved and a short
+	description with some achievements:
+      </para>
+      
+      <sect4>
+	<title>Upstream Bandwidth Optimization</title>
+	<subtitle>Aeronet, C.A.</subtitle>
+	<para>
+	  Aeronet is a <foreignphrase>Wireless ISP</foreignphrase> in
+	  Venezuela. They needed to optimize the available upstream
+	  Bandwidth for their customers.
+	</para>
+	<para>
+	  Overall, upstream traffic was optimized by a 24% and the
+	  end-user experience was improved by 32%, thanks to higher
+	  download rates in average. The solution was implemented
+	  using the Squid Proxy on a server with a fine tuned
+	  FreeBSD.
+	</para>
+      </sect4>
+
+      <sect4>
+	<title>Virtualization</title>
+	<subtitle>National Housing and Habitat Bank</subtitle>
+	<para>
+	  BANAVIH (for its initials in spanish) is the offical
+	  institution in Venezuela for habitational loans and
+	  subcidy. They needed to optimize the hardware utilization in
+	  their datacenter.
+	</para>
+	<para>
+	  A total of 4 servers were freed and repourposed, thanks to
+	  the application of the virtualization technology in
+	  development and testing servers; saving thousands of dollars
+	  in hardware adquirance. Red Hat Enterprise Linux and Xen
+	  were the technoligies used in this project.
+	</para>
+      </sect4>
+      
+      <sect4>
+	<title>Migration of Email and Domain Controller services to
+	Open Source Solutions</title>
+	<subtitle>CONVIASA</subtitle>
+	<para>
+	  CONVIASA is a venezuelan airline. The objectives of the
+	  project were the migration of email services and primary
+	  domain controller to open source solutions.
+	</para>
+	<para>
+	  The email services was migrated from third-party provider to
+	  a self-hosted solution based on Red Hat Enterprise 5,
+	  Postfix, Dovecot and Roundcube as web interface. The PDC was
+	  implemented on Debian with Samba3 with group-based custom
+	  profiles on workstations. Both services were integrated with
+	  OpenLDAP as the backend for users identification and
+	  authentication. The airline achieved the compliment 
+	</para>
+      </sect4>
+
+      <sect4>
+	<title>Web form for issuing policies</title>
+	<subtitle>Pyugmao Fondos Administrados, C.A.</subtitle>
+	<para>
+	  Pyugmao is a risk manager company, providing Civil Liability
+	  Policies to their customers. They needed a centralized
+	  system to generate policies.
+	</para>
+	<para>
+	  A web form was developed in the Perl programming languaje
+	  with the CGI interface and PostgreSQL for the database. The
+	  company was able to increase their salesforce and to emit
+	  more than ten times more policies monthly, compared to the
+	  months before the implementation of the solution.
+	</para>
+      </sect4>
+      
+      <sect4>
+	<title>Interface for BT-3000 Plus Chemistry Analyzer</title>
+	<subtitle>Neat Systems, C.A.</subtitle>
+	<para>
+	  Neat Systems is a development company specialized in ERP
+	  Software for hospitals and laboratories, running on the
+	  Windows platform. The <emphasis>BT-3000 Plus Chemistry
+	  Analyzer</emphasis> has a serial communication protocol via
+	  DB9 COMM Port, which makes it difficult to integrate into
+	  the TCP/IP network.
+	</para>
+	<para>
+	  A webservice was developed, implementing the serial protocol
+	  and making it available via HTTP. The solution was written
+	  in Perl on Debian Linux, and embeded in a VirtualBox image,
+	  so it can be run inside a Windows server.
+	</para>
+      </sect4>
+
+	<sect4>
+	  <title>Digicheck2</title>
+	  <subtitle>Bayco, C.A.</subtitle>
+	  <para>
+	    Bayco is a security solutions provider for the banking
+	    industry in Venezuela. They lost the control over a
+	    product they owned, due to some discordance with the
+	    former developers of the product. I was able to
+	    reverse-engineering the product and implement it using
+	    open source technologies. I gave them back the control
+	    over the product by writing detailed documentation about
+	    how their product works, how was developed and how can be
+	    modified.
+	  </para>
+	  <para>
+	    The rewrite was made with Perl, using the framework
+	    Mojolicious, PortgreSQL and Debian Linux. A customization
+	    of the debian-installer was made in order to include the
+	    corporative image of Bayco. The functionality of the
+	    product was to take a screenshot of face, check and id
+	    document when a client goes to the bank to cash a check.
+	  </para>
+	</sect4>
+
+	<sect4>
+	  <title>High Availability in VoIP</title>
+	  <subtitle>FIDES, C.A.</subtitle>
+	  <para>
+	    FIDES is a company providing medical services through a
+	    call center. The requirement was a setup such that if the
+	    main VoIP PBX server fails, the spare can't take more than
+	    20 seconds for the failover.
+	  </para>
+	  <para>
+	    The goal was achieved combining spacialized hardware from
+	    <trademark>Digium</trademark> and replication techniques
+	    on Elastix.
+	  </para>
+	</sect4>
+
+	<sect4>
+	  <title>Load Balancing Cluster</title>
+	  <subtitle>inmobilia.com</subtitle>
+	  <para><emphasis>inmobilia.com</emphasis> is a real state web
+	  portal with presence in 13 countries. The initial setup for
+	  their portal went out of capacity when they reached 4 hits
+	  per second. I designed for them a mixed cluster with virtual
+	  and bare metal servers, with defined roles as
+	  <foreignphrase>loadbalancers</foreignphrase>,
+	  <foreignphrase>backends</foreignphrase> and
+	  <foreignphrase>databases</foreignphrase>. I also leaded the
+	  development team into the <emphasis>Git Branching
+	  Model</emphasis> workflow, documented in <ulink
+	  url="http://http://nvie.com/posts/a-successful-git-branching-model/">this
+	  article by Vincent Driessen</ulink>. Finally, I configured
+	  an Amazon S3 bucket for the bank of images of the portal
+	  (about 160 GB by that time) and helped to integrate the
+	  stoage service in the portal.
+	  </para>
+	  <para>
+	    The performance increased drastically, holding loads of
+	    above 30 requests per socond with no significant impact on
+	    the servers, whose could handle up to 5 times such load
+	    without penalties. This implementation is saving money by
+	    using virtual servers for most of the hosts and not
+	    requiring huge amounts of aditional storage for backups.
+	  </para>
+	</sect4>
+
+	<sect4>
+	  <title>Recovery of files from <trademark>Glacier</trademark></title>
+	  <subtitle>inmobilia.com</subtitle>
+	  <para>
+	    The development team of inmobilia.com tried to implement
+	    the versioning feature from S3 service. However, they made
+	    a mistake and sent all their images to Glacier, where they
+	    are not available online. Even with paid support from AWS,
+	    they were unable to recover the files.
+	  </para>
+	  <para>
+	    Using the API from AWS S3 I wrote I script in Perl making
+	    parallel request, which helped to recover the files 16
+	    times faster than the time required if we used the methods
+	    suggested by AWS support. You can take a look at the
+	    script at https://github.com/granalberto/s3mu.
+	  </para>
+	</sect4>
+	    
+	  
+	
+    </sect3>
+    </sect2>
+  </sect1>  
+  
+  <sect1 label="">
+    <title>Training: Specialized Courses and Certifications</title>
+    <sect2 label="">
+      <title>IT Courses and Certifications</title>
+      <sect3 label="">
+	<title>
+	  Network Management
+	</title>
+	<segmentedlist>
+	  <segtitle>Description</segtitle>
+	  <segtitle>Institution</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certification granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Best practices in technical and management aspect for
+	      data and voice networks. Available tools, configuration
+	      and use.
+	    </seg>
+	    <seg>
+	      Central University of Venezuela - Faculty of Engineering
+	    </seg>
+	    <seg>
+	      Prof. Vicenzo Mendillo (UCV)
+	    </seg>
+	    <seg>
+	      32 hours
+	    </seg>
+	    <seg>
+	      Certificate of approval
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>	  
+      </sect3>
+      <sect3 label="">
+	<title>Linux Professional Certified Program</title>
+	<segmentedlist>
+	  <segtitle>Description</segtitle>
+	  <segtitle>Institution</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Basic and advanced administration of Linux-based
+	      operative systems. Theoretic and ideological roots of free
+	      software movement. Unix-like environments tool set.
+	    </seg>
+	    <seg>
+	      Higher Institute of Technological Studies and
+	      Investigations (ISEIT)
+	    </seg>
+	    <seg>
+	      Ing. Carlos García - Ing. Jesús Rivero
+	    </seg>
+	    <seg>
+	      80 hours
+	    </seg>
+	    <seg>
+	      Certified Linux Administrator Professional
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Linux Security Professional</title>
+	<segmentedlist>
+	  <segtitle>Description</segtitle>
+	  <segtitle>Institution</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Basis of information security concepts. Tools and
+	      methodologies for security policies implementations.
+	    </seg>
+	    <seg>
+	       Higher Institute of Technological Studies and
+	      Investigations (ISEIT)
+	    </seg>
+	    <seg>
+	      Ing. Ricardo Strusberg
+	    </seg>
+	    <seg>
+	      32 hours
+	    </seg>
+	    <seg>
+	      Certified Linux Security Administrator Professional 
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Linux Networks Administrator</title>
+	<segmentedlist>
+	  <segtitle>Descripción</segtitle>
+	  <segtitle>Institución</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duración</segtitle>
+	  <segtitle>Certificado Emitido</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Netwoking concepts, services and open source
+	      implementations.
+	    </seg>
+	    <seg>
+	      Higher Institute of Technological Studies and
+	      Investigations (ISEIT)
+	    </seg>
+	    <seg>
+	      Ing. Ernesto Hernandez-Novich
+	    </seg>
+	    <seg>
+	      32 hours
+	    </seg>
+	    <seg>
+	      Certified Linux Networks Administrator Professional
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>LPI Certification</title>
+	<segmentedlist>
+	  <segtitle>Institute</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <segtitle>LPI ID</segtitle>
+	  <segtitle>Verification Code</segtitle>
+	  <seglistitem>
+	    <seg>Linux Professional Institute</seg>
+	    <seg>Junior Linux Certified Professional (LPIC-1)</seg>
+	    <seg>LPI000092165</seg>
+	    <seg>k3z5ham8ph</seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+      
+      <sect3 label="">
+	<title>Agile Development Workshop with Python</title>
+	<segmentedlist>
+	  <segtitle>Description</segtitle>
+	  <segtitle>Institution</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Tools for agile development of user interfaces with
+	      Python
+	    </seg>
+	    <seg>
+	      V Foro Mundial del Conocimiento Libre
+	    </seg>
+	    <seg>
+	      Ing. Francisco Palm
+	    </seg>
+	    <seg>
+	      8 hours
+	    </seg>
+	    <seg>
+	      Certificate of participation
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+      
+    </sect2>
+    <sect2 label="">
+      <title>Professional and Personal Growth Courses</title>
+
+      <sect3 label="">
+	<title>Voice and Diction</title>
+	<segmentedlist>
+	  <segtitle>Descriptio</segtitle>
+	  <segtitle>Instructor</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Voice manipulation for professional purposes.
+	    </seg>
+	    <seg>
+	      Lic. Adriana Romero
+	    </seg>
+	    <seg>
+	      8 hours
+	    </seg>
+	    <seg>
+	      Certificate of Approval
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Job Analysis</title>
+	<segmentedlist>
+	  <segtitle>Description</segtitle>
+	  <segtitle>Institution</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Position Analysis
+	    </seg>
+	    <seg>
+	      INCE
+	    </seg>
+	    <seg>
+	      40 hours
+	    </seg>
+	    <seg>
+	     Certificate of Approval
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+
+      <sect3 label="">
+	<title>Psychology Applied to the Supervision</title>
+	<segmentedlist>
+	  <segtitle>Descripction</segtitle>
+	  <segtitle>Institution</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Management of work situations and leadership.
+	    </seg>
+	    <seg>
+	      INCE
+	    </seg>
+	    <seg>
+	      20 hours
+	    </seg>
+	    <seg>
+	     Certificate of Approval
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+      
+      <sect3 label="">
+	<title>Quality-oriented Management</title>
+	<segmentedlist>
+	  <segtitle>Description</segtitle>
+	  <segtitle>Institution</segtitle>
+	  <segtitle>Duration</segtitle>
+	  <segtitle>Certificate granted</segtitle>
+	  <seglistitem>
+	    <seg>
+	      Concepts and strategies for process
+	      optimization. Continuous improvement.
+	    </seg>
+	    <seg>
+	      INCE
+	    </seg>
+	    <seg>
+	      100 hours
+	    </seg>
+	    <seg>
+	     Certificate of Approval
+	    </seg>
+	  </seglistitem>
+	</segmentedlist>
+      </sect3>
+    </sect2>
+  </sect1>
+
+  <colophon>
+    <title>About this document</title>
+    <para>
+      This document was produced using the DocBook 5 schema with XSL
+      stylesheets, Emacs 25 as text editor and Apache FOP for its
+      publication in PDF.
+    </para>
+    <para>
+      You can check the source code for this document in
+      https://github.com/granalberto/cv/docbook5/ajmp-cv-en.xml.
+    </para>
+  </colophon>
+</article>
