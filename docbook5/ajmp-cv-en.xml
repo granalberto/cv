@@ -43,7 +43,7 @@
       <para>
 	I work very well socially, which is key for management
 	positions. I like karaoke parties and cooking with
-	friends. Eventually, I go out for running or swimming, wich
+	friends. Eventually, I go out for running or swimming, it
 	helps me to not get too fat (I love eating).
       </para>
     </sect2>
@@ -95,9 +95,9 @@
       </listitem>
     </itemizedlist>
     <itemizedlist>
-      <title>Orchestation</title>
+      <title>Orchestration</title>
       <listitem>
-	<para>[E] Ansible</para>
+	<para>[E] Ansible, [A] Jenkins</para>
       </listitem>
     </itemizedlist>
     <itemizedlist>
@@ -136,28 +136,28 @@
       I've been working in the field of Information Technologies for
       more than 15 years, starting from basic support activities for
       end users until getting into very complex activities like the
-      planification and execution of projects for mission-critical
-      tasks. I also have had the opportunity for teach, wich is a
+      planning and execution of projects for mission-critical
+      tasks. I also have had the opportunity for teach, which is a
       great enriching experience.
     </para>
     <para>
-      My confort zone is in around the FreeBSD project, which provides
+      My comfort zone is in around the FreeBSD project, which provides
       an excellent OS, documentation and development ecosystem;
       accompanied by an excellent community of hackers. I also was
       very savvy in the Linux world some years ago; however, the
       latest changes introduced into the main distributions have
-      dissappointed me a lot. This is a matter of preference, though,
+      disappointed me a lot. This is a matter of preference, though,
       I can work on any Unix-like environment.
     </para>
     <para>
-      My orientation has always been biased to what happens in the
-      backstages (Infrastructure/Arquitechture) instead of the
-      scenaries (User Experience/Interfaces), closely related to
-      develoment cycles (DevOps). That's true even before this
+      My orientation has always been into what happens in the
+      backstage (Infrastructure/Architecture) instead of the
+      scenarios (User Experience/Interfaces), closely related to
+      development cycles (DevOps). That's true even before this
       terminology came to existence.
     </para>
     <para>
-      My working experience can be splited in two: projects
+      My working experience can be splitted in two: projects
       executed as freelance consultant and positions occupied in some
       companies.
     </para>
@@ -176,14 +176,14 @@
 	  <itemizedlist>
 	    <listitem>
 	      <para>
-		Perform a PCI compliance self-asessment and suggest
+		Perform a PCI compliance self-assessment and suggest
 		improvements.
 	      </para>
 	    </listitem>
 	    <listitem>
 	      <para>
 		Participate in the recruitment process of a Junior
-		System Adminitrator, giving my recommendations for a
+		System Administrator, giving my recommendations for a
 		specific candidate, who resulted elected and was able to
 		perform assigned tasks with outstanding results.
 	      </para>
@@ -432,17 +432,17 @@
 	<title>Virtualization</title>
 	<subtitle>National Housing and Habitat Bank</subtitle>
 	<para>
-	  BANAVIH (for its initials in spanish) is the offical
-	  institution in Venezuela for habitational loans and
-	  subcidy. They needed to optimize the hardware utilization in
+	  BANAVIH (for its initials in spanish) is the official
+	  institution in Venezuela for housing loans and
+	  subsidy. They needed to optimize the hardware utilization in
 	  their datacenter.
 	</para>
 	<para>
-	  A total of 4 servers were freed and repourposed, thanks to
+	  A total of 4 servers were freed and repurposed, thanks to
 	  the application of the virtualization technology in
 	  development and testing servers; saving thousands of dollars
 	  in hardware adquirance. Red Hat Enterprise Linux and Xen
-	  were the technoligies used in this project.
+	  were the technologies used in this project.
 	</para>
       </sect4>
       
@@ -475,7 +475,7 @@
 	  system to generate policies.
 	</para>
 	<para>
-	  A web form was developed in the Perl programming languaje
+	  A web form was developed in the Perl programming language
 	  with the CGI interface and PostgreSQL for the database. The
 	  company was able to increase their salesforce and to emit
 	  more than ten times more policies monthly, compared to the
@@ -497,7 +497,7 @@
 	<para>
 	  A webservice was developed, implementing the serial protocol
 	  and making it available via HTTP. The solution was written
-	  in Perl on Debian Linux, and embeded in a VirtualBox image,
+	  in Perl on Debian Linux, and embedded in a VirtualBox image,
 	  so it can be run inside a Windows server.
 	</para>
       </sect4>
@@ -520,7 +520,7 @@
 	    The rewrite was made with Perl, using the framework
 	    Mojolicious, PortgreSQL and Debian Linux. A customization
 	    of the debian-installer was made in order to include the
-	    corporative image of Bayco. The functionality of the
+	    corporate image of Bayco. The functionality of the
 	    product was to take a screenshot of face, check and id
 	    document when a client goes to the bank to cash a check.
 	  </para>
@@ -536,7 +536,7 @@
 	    20 seconds for the failover.
 	  </para>
 	  <para>
-	    The goal was achieved combining spacialized hardware from
+	    The goal was achieved combining specialized hardware from
 	    <trademark>Digium</trademark> and replication techniques
 	    on Elastix.
 	  </para>
@@ -559,15 +559,15 @@
 	  article by Vincent Driessen</ulink>. Finally, I configured
 	  an Amazon S3 bucket for the bank of images of the portal
 	  (about 160 GB by that time) and helped to integrate the
-	  stoage service in the portal.
+	  storage service in the portal.
 	  </para>
 	  <para>
 	    The performance increased drastically, holding loads of
-	    above 30 requests per socond with no significant impact on
+	    above 30 requests per second with no significant impact on
 	    the servers, whose could handle up to 5 times such load
 	    without penalties. This implementation is saving money by
 	    using virtual servers for most of the hosts and not
-	    requiring huge amounts of aditional storage for backups.
+	    requiring huge amounts of additional storage for backups.
 	  </para>
 	</sect4>
 
@@ -695,14 +695,14 @@
       <sect3 label="">
 	<title>Linux Networks Administrator</title>
 	<segmentedlist>
-	  <segtitle>Descripción</segtitle>
-	  <segtitle>Institución</segtitle>
+	  <segtitle>Description</segtitle>
+	  <segtitle>Institution</segtitle>
 	  <segtitle>Instructor</segtitle>
-	  <segtitle>Duración</segtitle>
+	  <segtitle>Duration</segtitle>
 	  <segtitle>Certificado Emitido</segtitle>
 	  <seglistitem>
 	    <seg>
-	      Netwoking concepts, services and open source
+	      Networking concepts, services and open source
 	      implementations.
 	    </seg>
 	    <seg>
@@ -774,7 +774,7 @@
       <sect3 label="">
 	<title>Voice and Diction</title>
 	<segmentedlist>
-	  <segtitle>Descriptio</segtitle>
+	  <segtitle>Description</segtitle>
 	  <segtitle>Instructor</segtitle>
 	  <segtitle>Duration</segtitle>
 	  <segtitle>Certificate granted</segtitle>
@@ -822,7 +822,7 @@
       <sect3 label="">
 	<title>Psychology Applied to the Supervision</title>
 	<segmentedlist>
-	  <segtitle>Descripction</segtitle>
+	  <segtitle>Description</segtitle>
 	  <segtitle>Institution</segtitle>
 	  <segtitle>Duration</segtitle>
 	  <segtitle>Certificate granted</segtitle>
