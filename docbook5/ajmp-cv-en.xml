@@ -5,149 +5,234 @@
 	 xmlns:xlink="http://www.w3.org/1999/xlink"
 	 xml:lang="en">
   
-  <title>Alberto Mijares</title>
+  <title>Curriculum Vitae: Alberto Mijares</title>
 
-  <subtitle>DevOps Engineer - Information Technologies and
-  Data Security Consultant</subtitle>
+  <subtitle>IT Projects Manager, Infrastructure Architect and
+  <trademark>UNIX</trademark> Support Specialist</subtitle>
+
+  <articleinfo>
+    <revhistory>
+      <revision>
+	<revnumber>3.0</revnumber>
+	<date>June 2025</date>
+	<revremark>Adding NeatCSS for web and updating information</revremark>
+      </revision>
+      <revision>
+	<revnumber>2.9</revnumber>
+	<date>July 2017</date>
+	<revremark>Moving to Docbook 5 from Docbook 4</revremark>
+      </revision>
+    </revhistory>
+  </articleinfo>
   
-
-  <sect1 label="">
+  <sect1>
     <title>Personal Information</title>
     <para>
       <literallayout>
-	Name: Alberto José Mijares Paredes
-	Birth Date: October 23, 1979
+	Full Name: Alberto José Mijares Paredes
 	Birthplace: Caracas, Venezuela
-	Marital Status: Married
       </literallayout>
-    </para>
-        <address>
+    </para> 
+    <address>
       <email>amijaresp@gmail.com</email>
       <street>
-	Av. Independencia #901, torre G-34, apto. B7. Zona Universitaria.
-      </street>
-      <city>Santo Domingo</city>
-      <state>Distrito Nacional</state>
-      <postcode>10103</postcode>
-      <country>Dominican Republic</country>
-      <phone id="cellphone">+1(849)858.92.46</phone>
+	San Bernardino</street>
+      <city>Caracas</city>
+      <state>Distrito Capital</state>
+      <postcode>1010</postcode>
+      <country>Venezuela</country>
+      <phone id="cellphone">+58(412)5938582</phone>
     </address>
 
-    <sect2 label="">
-      <title>Personal Profile</title>
+    <sect2>
+      <title>About me...</title>
       <para>
 	I see myself as a solutions provider. My fundamentals are:
-	stick to the standards, follow the principles of Unix and
-	write good documentation.
+	stick to the standards, follow the principles of Unix (simple
+	is beautiful) and write good documentation.
       </para>
       <para>
-	I work very well socially, which is key for management
-	positions. I like karaoke parties and cooking with
-	friends. Eventually, I go out for running or swimming, it
-	helps me to not get too fat (I love eating).
+	I'm honest, reserved and focused. I align myself with the
+	vision of my clients and nothing is executed without profit,
+	seen from different viewpoints.
       </para>
+      <sect3>
+	<title>What am I doing now?</title>
+	<para>
+	  I provide specialized support services for the
+	  infrastructure of a company that operates as a job board in
+	  the state of Nebraska, through the company <link
+	  xlink:href="https://zvitech.com">ZVI Technologies</link>,
+	  based in the Dominican Republic.
+	</para>
+	<para>
+	  I'm also in charge of editing videos for <link
+	  xlink:href="https://youtube.com/@rabinoshui">Rabbi Shui
+	  Rosenblum's YouTube channel</link>, in his daily delivery of
+	  Chumash studies.
+	</para>
+      </sect3>
     </sect2>
   </sect1>
-  <sect1 label="">
-    <title>Skills</title>
+
+  <sect1>
+    <title>Knowledge and Skills</title>
     <para>
-      The next section points my skills in different IT
-      disciplines. The levels have been graduated according the next
-      scale:
+      This is a non-exahustive list of the skills developed along my careerpath.
     </para>
-    <simplelist>
-      <member>[M] Master</member>
-      <member>[E] Expert</member>
-      <member>[A] Apprentice</member>
-      <member>[N] Novice</member>
-      <member>[P] Beginner</member>
-    </simplelist>
-    <para>
-      For more details about this scale please read the electronic
-      document <ulink url="https://www.mcs.com.ve/hs/">The Human Skills
-      Grading System</ulink>.
-    </para>
+    <sect2>
+      <title>Soft Skills</title>
+    <itemizedlist>
+      <title>Management</title>
+      <listitem>
+	<para>
+	  Self-Management throught time management techniques. Mainly,
+	  TODO lists and Calendars help me to get things done.
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Agile Management with Scrum-based techniques. While not
+	  strictly attached to any theory, I can identify segments
+	  that help me to manage a certain team for achieving certain
+	  goals. It shpuld be dynamic as projects are dynamic.
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Lidership by example and data-driven decision-making. I'm a
+	  good team pleayer when the roles, objetives and processes
+	  are well defined.
+	</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Communications</title>
+      <listitem>
+	<para>
+	  Good verbal and written communication.
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Active listening.
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Persuasion and negotiation. Always trying to get the win-win
+	  formula.
+	</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Problem-Solving and Critical Thinking</title>
+      <listitem>
+	<para>
+	  Problems come in different flavors and the job is to solve
+	  them so that the business continues to run.
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Every issue is divided in smaller issues and each one is
+	  analyzed under criticism for getting in to the best
+	  workaround and finally a definitive solution.
+	</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <title>Learning Agility and Personal Development</title>
+      <listitem>
+	<para>
+	  I'm a self taught person and I'm always reading newsletters
+	  about Business, Information Technologies, e-Commerce and
+	  related subjects for being always up-to-date with the latest
+	  services and products.
+	</para>
+	<para>
+	  I also read technical bulletins and engineering blogs from
+	  the top companies is technologies.
+	</para>
+      </listitem>
+    </itemizedlist>
+    </sect2>
+
+    <sect2>
+      <title>Hard Skills</title>
     <itemizedlist>
       <title>Programming Languages</title>
       <listitem>
-	<para>[A+] Perl 5 (apprentice, becoming expert)</para>
+	<para>Perl 5 and the Mojolicious Web Development Framework</para>
       </listitem>
       <listitem>
-	<para>[P] Haskell, C</para>
+	<para>Haskell, C (still learning)</para>
       </listitem>
       <listitem>
-	<para>[E] Bourn Shell (Shell Scripting)</para>
+	<para>Bourn Shell and Python Scripting</para>
       </listitem>
     </itemizedlist>
     <itemizedlist>
       <title>Operative Systems</title>
       <listitem>
-	<para>[E] FreeBSD</para>
+	<para>FreeBSD for servers operative systems</para>
       </listitem>
       <listitem>
-	<para>[A+] Debian GNU/Linux, CentOS, Ubuntu Server</para>
+	<para>Debian GNU/Linux, CentOS, Ubuntu Server and other Linux
+	flavors</para>
       </listitem>
     </itemizedlist>
     <itemizedlist>
       <title>Databases</title>
       <listitem>
-	<para>[E] PostgreSQL, MySQL</para>
+	<para>PostgreSQL, MySQL and MariaDB for SQL DB Engines</para>
       </listitem>
     </itemizedlist>
     <itemizedlist>
       <title>Orchestration</title>
       <listitem>
-	<para>[E] Ansible, [A] Jenkins</para>
+	<para>Ansible, Jenkins</para>
       </listitem>
     </itemizedlist>
     <itemizedlist>
       <title>Virtualization</title>
       <listitem>
-	<para>[E] Bhyve, KVM, VirtualBox</para>
+	<para>Bhyve, KVM, VMWare and VirtualBox</para>
       </listitem>
     </itemizedlist>
-    <itemizedlist>
+    </sect2>
+    <sect2>
       <title>Services and Applications</title>
-      <listitem>
 	<para>
-	  Apache, Nginx, Sendmail, Postfix, OpenSMTPD, Dovecot,
-	  AntiSPAM, Packet Filter (PF), Squid, Snort, Bro, Suricata,
-	  Nagios, Munin, NTP, DHCP, Bind, Unbound, ELK stack, UWSGI,
-	  IPSec, Git, Asterisk, RADIUS, OpenLDAP, Kannel, Metasploit
-	  Framework and many others. The level for all these items is
-	  located between A and E.
+	  Besides those skills, I also have experience with many
+	  toolsets. I wish I could name all the technologies,
+	  services, software and tools that I know and have worked
+	  with, but such list would be too long. Instead, please read
+	  the section about projects I have worked on my own and
+	  representing other companies.
 	</para>
-	<para>
-	  I also have experience working with CMS's like Wordpress,
-	  e-Commerce solutions like Magento, educative portals like
-	  Moodle, tracking systems like Request Tracker (RT),
-	  management systems like dotProject and Redmine, CRM's like
-	  SugarCRM, accounting software like GNUCash, personal cloud
-	  storage with ownCloud, print servers with CUPS, SAMBA, NFS,
-	  FTP, ZFS, etc.
-	</para>
-      </listitem>
-    </itemizedlist>
-    
+    </sect2>
+ 
   </sect1>
+
   <sect1 label="">
     <title>Working Experience</title>
     <para>
       I've been working in the field of Information Technologies for
-      more than 15 years, starting from basic support activities for
+      more than 22 years, starting from basic support activities for
       end users until getting into very complex activities like the
       planning and execution of projects for mission-critical
-      tasks. I also have had the opportunity for teach, which is a
+      tasks. I also have had the opportunity to teach, which is a
       great enriching experience.
     </para>
     <para>
       My comfort zone is in around the FreeBSD project, which provides
       an excellent OS, documentation and development ecosystem;
       accompanied by an excellent community of hackers. I also was
-      very savvy in the Linux world some years ago; however, the
-      latest changes introduced into the main distributions have
-      disappointed me a lot. This is a matter of preference, though,
-      I can work on any Unix-like environment.
+      very savvy in the Linux world some years ago; however, the some
+      changes introduced a few years ago into the main distributions
+      have disappointed me a lot. This is a matter of preference,
+      though, I can work on any Unix-like environment.
     </para>
     <para>
       My orientation has always been into what happens in the
@@ -163,7 +248,85 @@
     </para>
     
     <sect2>
-      <title>Positions</title>      
+      <title>Positions</title>
+      <sect3>
+	<title>Venelectronics</title>
+	<sect4>
+	  <title>Projects Manager (2023 - 2024)</title>
+	  <para>
+	    Venelectronics is a retail store with 5 branches in
+	    Venezuela. There are many challeneges associated to the
+	    politics, taxes and laws in Venezuela, making it harder to
+	    run a retail store and spacially in the ecommerce world.
+	  </para>
+	  <para>
+	    I have been in charge of the execution of small projects
+	    for the customization of their CRM software, trying to
+	    align it with the products and promotions launched by the
+	    Marketing Department and others.
+	  </para>
+	</sect4>
+      </sect3>
+      <sect3>
+	<title>Group of HighTech Companies in New York</title>
+	<sect4>
+	  <title>Office Manager</title>
+	  <para>
+	    Since year 2019 to 2022, I've been managing an
+	    offshore company, dedicated to software development in
+	    Dominican Republic, for a group of companies in the
+	    Internet Services business, located in New York, USA.
+	  </para>
+	  <para>
+	    My main tasks are to provide the physical space, services,
+	    equipment and facilites for the operations of the
+	    developers. I also run campaigns for hiring the developers
+	    and make a first approach in order to filter according to
+	    non-technical assessments.
+	  </para>
+	</sect4>
+      </sect3>
+      <sect3>
+	<title>SmartTechDo</title>
+	<sect4>
+	  <title>Support Specialist (2017 - 2019)</title>
+	  <para>
+	    Working at SmartTechDo was a great experience. Basically,
+	    I provided solutions to complex problem within the
+	    ifrastruture of our clients.
+	  </para>
+	  <para>
+	    I spent a lot of time reading documentation of software
+	    (open source mostly) figuring out how to improve the
+	    behavior of the platform that we were supporting.
+	  </para>
+	  <para>
+	    Some of the technologies that I supported by the time was:
+	    <itemizedlist>
+	      <listitem>
+		<para>
+		  ClusterLabs high availability stack
+		</para>
+	      </listitem>
+	      <listitem>
+		<para>
+		  PCI compliance fixes in systems configuration
+		</para>
+	      </listitem>
+	      <listitem>
+		<para>
+		  Moodle learning system
+		</para>
+	      </listitem>
+	      <listitem>
+		<para>
+		  Asterisk IP-PBX
+		</para>
+	      </listitem>
+	    </itemizedlist>
+	  </para>
+	</sect4>
+      </sect3>
       <sect3>
 	<title>Future Link Corporation (2016 - 2017)</title>
 	<sect4>
@@ -190,8 +353,10 @@
 	    </listitem>
 	    <listitem>
 	      <para>
-		Re-assign resources from one project to another, where
-		the deadline was very close and manpower was required.
+		Identify problems on time. An example of a suggested
+		solution to one of those problems was to re-assign
+		resources from one project to another, where the
+		deadline was very close and manpower was required.
 	      </para>
 	    </listitem>
 	    <listitem>
@@ -390,8 +555,7 @@
 	    </listitem>
 	    <listitem>
 	      <para>
-		Soporte de aplicaciones. Mantenimiento de usuarios del
-		sistema.
+		Support for end-users and external costumers.
 	      </para>
 	    </listitem>
 	  </itemizedlist>
@@ -873,13 +1037,26 @@
   <colophon>
     <title>About this document</title>
     <para>
-      This document was produced using the DocBook 5 schema with XSL
-      stylesheets, Emacs 25 as text editor and Apache FOP for its
-      publication in PDF.
+      This document was produced using the <link
+      xlink:href="https://docbook.org">DocBook 5</link> schema with
+      <link
+      xlink:href="https://github.com/docbook/xslt10-stylesheets">XSL
+      stylesheets</link>, <link
+      xlink:href="https://www.gnu.org/s/emacs">Emacs</link> as text
+      editor, <link
+      xlink:href="https://xmlsoft.org/xslt/xsltproc.html">xsltproc</link>
+      for generating HTML 5 and <link
+      xlink:href="https://xmlgrphics.apache.org/fop/">Apache
+      FOP</link> for its <link
+      xlink:href="https://granalberto.github.io/pdf/ajmp-cv-en.pdf">publication
+      in PDF</link>. I'm also including a CSS Stylesheet from <link
+      xlink:href="https://neat.joeldare.com/">Neat CSS</link> for a
+      better look and feel on the web. Thank you all for your great
+      work, guys!
     </para>
     <para>
-      You can check the source code for this document in
-      https://github.com/granalberto/cv/blob/master/docbook5/ajmp-cv-en.xml.
+      You can check the source code for this document in <link
+      xlink:href="https://github.com/granalberto/cv/blob/master/docbook5/ajmp-cv-en.xml">Github</link>
     </para>
   </colophon>
 </article>

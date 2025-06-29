@@ -1,0 +1,942 @@
+<?xml version="1.0"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="serif,Symbol,ZapfDingbats" font-size="10pt" text-align="justify" line-height="normal" font-selection-strategy="character-by-character" line-height-shift-adjustment="disregard-shifts" writing-mode="lr-tb" language="en"><fo:layout-master-set><fo:simple-page-master master-name="blank" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body display-align="center" margin-bottom="0.5in" margin-top="0.5in" margin-left="0in" margin-right="0in" region-name="blank-body"/><fo:region-before region-name="xsl-region-before-blank" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-blank" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-blank" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-blank" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="titlepage-first" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-first" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-first" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-first" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-first" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="titlepage-odd" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-odd" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-odd" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-odd" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-odd" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="titlepage-even" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-even" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-even" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-even" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-even" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="lot-first" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-first" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-first" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-first" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-first" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="lot-odd" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-odd" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-odd" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-odd" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-odd" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="lot-even" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-even" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-even" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-even" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-even" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="front-first" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-first" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-first" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-first" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-first" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="front-odd" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-odd" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-odd" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-odd" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-odd" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="front-even" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-even" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-even" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-even" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-even" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="body-first" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-first" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-first" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-first" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-first" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="body-odd" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-odd" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-odd" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-odd" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-odd" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="body-even" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-even" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-even" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-even" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-even" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="back-first" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-first" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-first" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-first" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-first" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="back-odd" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-odd" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-odd" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-odd" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-odd" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="back-even" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="1" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-even" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-even" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-even" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-even" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="index-first" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="2" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-first" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-first" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-first" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-first" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="index-odd" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="2" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-odd" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-odd" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-odd" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-odd" precedence="false" extent="0in"/></fo:simple-page-master><fo:simple-page-master master-name="index-even" page-width="8.5in" page-height="11in" margin-top="0.5in" margin-bottom="0.5in" margin-left="1in" margin-right="1in"><fo:region-body margin-bottom="0.5in" margin-top="0.5in" column-gap="12pt" column-count="2" margin-left="0in" margin-right="0in"/><fo:region-before region-name="xsl-region-before-even" extent="0.4in" precedence="true" display-align="before"/><fo:region-after region-name="xsl-region-after-even" extent="0.4in" precedence="true" display-align="after"/><fo:region-start border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-outer-even" precedence="false" extent="0in"/><fo:region-end border-width="0" padding="0" reference-orientation="90" region-name="xsl-region-inner-even" precedence="false" extent="0in"/></fo:simple-page-master><fo:page-sequence-master master-name="titlepage"><fo:repeatable-page-master-alternatives><fo:conditional-page-master-reference master-reference="blank" blank-or-not-blank="blank"/><fo:conditional-page-master-reference master-reference="titlepage-first" page-position="first"/><fo:conditional-page-master-reference master-reference="titlepage-odd" odd-or-even="odd"/><fo:conditional-page-master-reference odd-or-even="even" master-reference="titlepage-odd"/></fo:repeatable-page-master-alternatives></fo:page-sequence-master><fo:page-sequence-master master-name="lot"><fo:repeatable-page-master-alternatives><fo:conditional-page-master-reference master-reference="blank" blank-or-not-blank="blank"/><fo:conditional-page-master-reference master-reference="lot-first" page-position="first"/><fo:conditional-page-master-reference master-reference="lot-odd" odd-or-even="odd"/><fo:conditional-page-master-reference odd-or-even="even" master-reference="lot-odd"/></fo:repeatable-page-master-alternatives></fo:page-sequence-master><fo:page-sequence-master master-name="front"><fo:repeatable-page-master-alternatives><fo:conditional-page-master-reference master-reference="blank" blank-or-not-blank="blank"/><fo:conditional-page-master-reference master-reference="front-first" page-position="first"/><fo:conditional-page-master-reference master-reference="front-odd" odd-or-even="odd"/><fo:conditional-page-master-reference odd-or-even="even" master-reference="front-odd"/></fo:repeatable-page-master-alternatives></fo:page-sequence-master><fo:page-sequence-master master-name="body"><fo:repeatable-page-master-alternatives><fo:conditional-page-master-reference master-reference="blank" blank-or-not-blank="blank"/><fo:conditional-page-master-reference master-reference="body-first" page-position="first"/><fo:conditional-page-master-reference master-reference="body-odd" odd-or-even="odd"/><fo:conditional-page-master-reference odd-or-even="even" master-reference="body-odd"/></fo:repeatable-page-master-alternatives></fo:page-sequence-master><fo:page-sequence-master master-name="back"><fo:repeatable-page-master-alternatives><fo:conditional-page-master-reference master-reference="blank" blank-or-not-blank="blank"/><fo:conditional-page-master-reference master-reference="back-first" page-position="first"/><fo:conditional-page-master-reference master-reference="back-odd" odd-or-even="odd"/><fo:conditional-page-master-reference odd-or-even="even" master-reference="back-odd"/></fo:repeatable-page-master-alternatives></fo:page-sequence-master><fo:page-sequence-master master-name="index"><fo:repeatable-page-master-alternatives><fo:conditional-page-master-reference master-reference="blank" blank-or-not-blank="blank"/><fo:conditional-page-master-reference master-reference="index-first" page-position="first"/><fo:conditional-page-master-reference master-reference="index-odd" odd-or-even="odd"/><fo:conditional-page-master-reference odd-or-even="even" master-reference="index-odd"/></fo:repeatable-page-master-alternatives></fo:page-sequence-master></fo:layout-master-set><fo:page-sequence xmlns:axf="http://www.antennahouse.com/names/XSL/Extensions" hyphenate="true" master-reference="body" language="en" format="1" initial-page-number="1" force-page-count="no-force" hyphenation-character="-" hyphenation-push-character-count="2" hyphenation-remain-character-count="2"><fo:static-content flow-name="xsl-region-before-first"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-bottom-width="0.5pt" border-bottom-style="solid" border-bottom-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="right" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:static-content flow-name="xsl-region-before-odd"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-bottom-width="0.5pt" border-bottom-style="solid" border-bottom-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="before" relative-align="baseline"><fo:block><fo:block>Curriculum Vitae: Alberto Mijares</fo:block></fo:block></fo:table-cell><fo:table-cell text-align="right" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:static-content flow-name="xsl-region-before-even"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-bottom-width="0.5pt" border-bottom-style="solid" border-bottom-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="before" relative-align="baseline"><fo:block><fo:block>Curriculum Vitae: Alberto Mijares</fo:block></fo:block></fo:table-cell><fo:table-cell text-align="right" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:static-content flow-name="xsl-region-before-blank"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-bottom-width="0.5pt" border-bottom-style="solid" border-bottom-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="right" display-align="before" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:static-content flow-name="xsl-footnote-separator"><fo:block><fo:leader color="black" leader-pattern="rule" leader-length="1in"/></fo:block></fo:static-content><fo:static-content flow-name="blank-body"><fo:block text-align="center"/></fo:static-content><fo:static-content flow-name="xsl-region-inner-first"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-inner-odd"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-inner-even"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-inner-blank"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-outer-first"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-outer-odd"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-outer-even"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-outer-blank"><fo:block/></fo:static-content><fo:static-content flow-name="xsl-region-after-first"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-top-width="0.5pt" border-top-style="solid" border-top-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="after" relative-align="baseline"><fo:block><fo:block><fo:page-number/></fo:block></fo:block></fo:table-cell><fo:table-cell text-align="end" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:static-content flow-name="xsl-region-after-odd"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-top-width="0.5pt" border-top-style="solid" border-top-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="after" relative-align="baseline"><fo:block><fo:block><fo:page-number/></fo:block></fo:block></fo:table-cell><fo:table-cell text-align="end" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:static-content flow-name="xsl-region-after-even"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-top-width="0.5pt" border-top-style="solid" border-top-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="after" relative-align="baseline"><fo:block><fo:block><fo:page-number/></fo:block></fo:block></fo:table-cell><fo:table-cell text-align="end" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:static-content flow-name="xsl-region-after-blank"><fo:block font-family="serif,Symbol,ZapfDingbats" margin-left="0pt"><fo:table table-layout="fixed" width="100%" border-top-width="0.5pt" border-top-style="solid" border-top-color="black"><fo:table-column column-number="1" column-width="proportional-column-width(1)"/><fo:table-column column-number="2" column-width="proportional-column-width(1)"/><fo:table-column column-number="3" column-width="proportional-column-width(1)"/><fo:table-body><fo:table-row block-progression-dimension.minimum="14pt"><fo:table-cell text-align="start" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell><fo:table-cell text-align="center" display-align="after" relative-align="baseline"><fo:block><fo:block><fo:page-number/></fo:block></fo:block></fo:table-cell><fo:table-cell text-align="end" display-align="after" relative-align="baseline"><fo:block><fo:block/></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:static-content><fo:flow flow-name="xsl-region-body" start-indent="4pc" end-indent="0pt"><fo:block id="id1"><fo:block font-family="sans-serif,Symbol,ZapfDingbats"><fo:block start-indent="0pt" text-align="center"><fo:block keep-with-next.within-column="always" font-size="24.8832pt" font-weight="bold"><fo:block keep-with-next.within-column="always" space-before.optimum="10pt" space-before.minimum="10pt * 0.8" space-before.maximum="10pt * 1.2" hyphenate="false" text-align="center" start-indent="0pt" hyphenation-character="-" hyphenation-push-character-count="2" hyphenation-remain-character-count="2">Curriculum Vitae: Alberto Mijares</fo:block></fo:block><fo:block>IT Projects Manager, Infrastructure Architect and UNIX<fo:inline font-family="serif,Symbol,ZapfDingbats">™</fo:inline> Support Specialist</fo:block></fo:block></fo:block></fo:block><fo:block space-before.minimum="0.5em" space-before.optimum="1em" space-before.maximum="2em" space-after.minimum="0.5em" space-after.optimum="1em" space-after.maximum="2em" id="toc...id1"><fo:block><fo:block><fo:block space-before.minimum="1em" space-before.optimum="1.5em" space-before.maximum="2em" space-after="0.5em" start-indent="0pt" font-size="17.28pt" font-weight="bold" font-family="sans-serif,Symbol,ZapfDingbats">Table of Contents</fo:block></fo:block></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id2">Personal Information</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id2"><fo:page-number-citation ref-id="id2"/></fo:basic-link></fo:inline></fo:block><fo:block id="toc.id1.id2" margin-left="24pt"><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id3">About me...</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id3"><fo:page-number-citation ref-id="id3"/></fo:basic-link></fo:inline></fo:block></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id4">Knowledge and Skills</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id4"><fo:page-number-citation ref-id="id4"/></fo:basic-link></fo:inline></fo:block><fo:block id="toc.id1.id4" margin-left="24pt"><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id5">Soft Skills</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id5"><fo:page-number-citation ref-id="id5"/></fo:basic-link></fo:inline></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id6">Hard Skills</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id6"><fo:page-number-citation ref-id="id6"/></fo:basic-link></fo:inline></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id7">Services and Applications</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id7"><fo:page-number-citation ref-id="id7"/></fo:basic-link></fo:inline></fo:block></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id8">Working Experience</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id8"><fo:page-number-citation ref-id="id8"/></fo:basic-link></fo:inline></fo:block><fo:block id="toc.id1.id8" margin-left="24pt"><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id9">Positions</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id9"><fo:page-number-citation ref-id="id9"/></fo:basic-link></fo:inline></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id10">Projects</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id10"><fo:page-number-citation ref-id="id10"/></fo:basic-link></fo:inline></fo:block></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id11">Training: Specialized Courses and Certifications</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id11"><fo:page-number-citation ref-id="id11"/></fo:basic-link></fo:inline></fo:block><fo:block id="toc.id1.id11" margin-left="24pt"><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id12">IT Courses and Certifications</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id12"><fo:page-number-citation ref-id="id12"/></fo:basic-link></fo:inline></fo:block><fo:block text-align-last="justify" text-align="start" end-indent="24pt" last-line-end-indent="-24pt"><fo:inline keep-with-next.within-line="always"><fo:basic-link internal-destination="id13">Professional and Personal Growth Courses</fo:basic-link></fo:inline><fo:inline keep-together.within-line="always"><fo:leader leader-pattern="dots" leader-pattern-width="3pt" leader-alignment="reference-area" padding-left="3pt" padding-right="3pt"/><fo:basic-link internal-destination="id13"><fo:page-number-citation ref-id="id13"/></fo:basic-link></fo:inline></fo:block></fo:block></fo:block>
+  
+  
+
+  
+  
+  <fo:block id="id2"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Personal Information</fo:marker><fo:block font-size="20.736pt">Personal Information</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+    
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      <fo:block space-before.minimum="0.8em" space-before.optimum="1em" space-before.maximum="1.2em" space-after.minimum="0.8em" space-after.optimum="1em" space-after.maximum="1.2em" hyphenate="false" wrap-option="no-wrap" white-space-collapse="false" white-space-treatment="preserve" linefeed-treatment="preserve" text-align="start" id="id15">
+	Full Name: Alberto José Mijares Paredes
+	Birthplace: Caracas, Venezuela
+      </fo:block>
+    </fo:block> 
+    <fo:block space-before.minimum="0.8em" space-before.optimum="1em" space-before.maximum="1.2em" space-after.minimum="0.8em" space-after.optimum="1em" space-after.maximum="1.2em" hyphenate="false" wrap-option="no-wrap" white-space-collapse="false" white-space-treatment="preserve" linefeed-treatment="preserve" text-align="start">
+      <fo:inline font-family="monospace"><fo:inline keep-together.within-line="always" hyphenate="false">&lt;amijaresp@gmail.com&gt;</fo:inline></fo:inline>
+      
+	San Bernardino
+      Caracas
+      Distrito Capital
+      1010
+      Venezuela
+      +58(412)5938582
+    </fo:block>
+
+    <fo:block id="id3"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">About me...</fo:marker><fo:block font-size="17.28pt">About me...</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	I see myself as a solutions provider. My fundamentals are:
+	stick to the standards, follow the principles of Unix (simple
+	is beautiful) and write good documentation.
+      </fo:block>
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	I'm honest, reserved and focused. I align myself with the
+	vision of my clients and nothing is executed without profit,
+	seen from different viewpoints.
+      </fo:block>
+    </fo:block>
+  </fo:block>
+
+  <fo:block id="id4"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Knowledge and Skills</fo:marker><fo:block font-size="20.736pt">Knowledge and Skills</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+    
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      This is a non-exahustive list of the skills developed along my careerpath.
+    </fo:block>
+    <fo:block id="id5"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Soft Skills</fo:marker><fo:block font-size="17.28pt">Soft Skills</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Management</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id20"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id21"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Self-Management throught time management techniques. Mainly,
+	  TODO lists and Calendars help me to get things done.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id23"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Agile Management with Scrum-based techniques. While not
+	  strictly attached to any theory, I can identify segments
+	  that help me to manage a certain team for achieving certain
+	  goals. It shpuld be dynamic as projects are dynamic.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id25"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Lidership by example and data-driven decision-making. I'm a
+	  good team pleayer when the roles, objetives and processes
+	  are well defined.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Communications</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id27"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id28"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Good verbal and written communication.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id30"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Active listening.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id32"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Persuasion and negotiation. Always trying to get the win-win
+	  formula.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Problem-Solving and Critical Thinking</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id34"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id35"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Problems come in different flavors and the job is to solve
+	  them so that the business continues to run.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id37"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Every issue is divided in smaller issues and each one is
+	  analyzed under criticism for getting in to the best
+	  workaround and finally a definitive solution.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Learning Agility and Personal Development</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id39"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id40"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  I'm a self taught person and I'm always reading newsletters
+	  about Business, Information Technologies, e-Commerce and
+	  related subjects for being always up-to-date with the latest
+	  services and products.
+	</fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  I also read technical bulletins and engineering blogs from
+	  the top companies is technologies.
+	</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    </fo:block>
+
+    <fo:block id="id6"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Hard Skills</fo:marker><fo:block font-size="17.28pt">Hard Skills</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Programming Languages</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id43"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id44"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Perl 5 and the Mojolicious Web Development Framework</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id46"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Haskell, C (still learning)</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id48"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Bourn Shell and Python Scripting</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Operative Systems</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id50"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id51"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">FreeBSD for servers operative systems</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id53"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Debian GNU/Linux, CentOS, Ubuntu Server and other Linux
+	flavors</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Databases</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id55"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id56"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">PostgreSQL, MySQL and MariaDB for SQL DB Engines</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Orchestration</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id58"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id59"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Ansible, Jenkins</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    <fo:block font-weight="bold" font-size="12pt" hyphenate="false" space-after.minimum="0.4em" space-after.optimum="0.6em" space-after.maximum="0.8em" space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" keep-with-next.within-column="always">Virtualization</fo:block><fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id61"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id62"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Bhyve, KVM, VMWare and VirtualBox</fo:block>
+      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+    </fo:block>
+    <fo:block id="id7"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Services and Applications</fo:marker><fo:block font-size="17.28pt">Services and Applications</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Besides those skills, I also have experience with many
+	  toolsets. I wish I could name all the technologies,
+	  services, software and tools that I know and have worked
+	  with, but such list would be too long. Instead, please read
+	  the section about projects I have worked on my own and
+	  representing other companies.
+	</fo:block>
+    </fo:block>
+ 
+  </fo:block>
+
+  <fo:block id="id8"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Working Experience</fo:marker><fo:block font-size="20.736pt">Working Experience</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+    
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      I've been working in the field of Information Technologies for
+      more than 22 years, starting from basic support activities for
+      end users until getting into very complex activities like the
+      planning and execution of projects for mission-critical
+      tasks. I also have had the opportunity to teach, which is a
+      great enriching experience.
+    </fo:block>
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      My comfort zone is in around the FreeBSD project, which provides
+      an excellent OS, documentation and development ecosystem;
+      accompanied by an excellent community of hackers. I also was
+      very savvy in the Linux world some years ago; however, the some
+      changes introduced a few years ago into the main distributions
+      have disappointed me a lot. This is a matter of preference,
+      though, I can work on any Unix-like environment.
+    </fo:block>
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      My orientation has always been into what happens in the
+      backstage (Infrastructure/Architecture) instead of the
+      scenarios (User Experience/Interfaces), closely related to
+      development cycles (DevOps). That's true even before this
+      terminology came to existence.
+    </fo:block>
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      My working experience can be splitted in two: projects
+      executed as freelance consultant and positions occupied in some
+      companies.
+    </fo:block>
+    
+    <fo:block id="id9"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Positions</fo:marker><fo:block font-size="17.28pt">Positions</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+      <fo:block id="id69"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Venelectronics</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id70"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Projects Manager (2023 - 2024)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    Venelectronics is a retail store with 5 branches in
+	    Venezuela. There are many challeneges associated to the
+	    politics, taxes and laws in Venezuela, making it harder to
+	    run a retail store and spacially in the ecommerce world.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    I have been in charge of the execution of small projects
+	    for the customization of their CRM software, trying to
+	    align it with the products and promotions launched by the
+	    Marketing Department and others.
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+      <fo:block id="id73"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Group of HighTech Companies in New York</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id74"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Office Manager</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    Since year 2019 to 2022, I've been managing an
+	    offshore company, dedicated to software development in
+	    Dominican Republic, for a group of companies in the
+	    Internet Services business, located in New York, USA.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    My main tasks are to provide the physical space, services,
+	    equipment and facilites for the operations of the
+	    developers. I also run campaigns for hiring the developers
+	    and make a first approach in order to filter according to
+	    non-technical assessments.
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+      <fo:block id="id77"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">SmartTechDo</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id78"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Support Specialist (2017 - 2019)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    Working at SmartTechDo was a great experience. Basically,
+	    I provided solutions to complex problem within the
+	    ifrastruture of our clients.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    I spent a lot of time reading documentation of software
+	    (open source mostly) figuring out how to improve the
+	    behavior of the platform that we were supporting.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    Some of the technologies that I supported by the time was:
+	    <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id82"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id83"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+		<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		  ClusterLabs high availability stack
+		</fo:block>
+	      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id85"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+		<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		  PCI compliance fixes in systems configuration
+		</fo:block>
+	      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id87"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+		<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		  Moodle learning system
+		</fo:block>
+	      </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id89"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+		<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		  Asterisk IP-PBX
+		</fo:block>
+	      </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+      <fo:block id="id91"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Future Link Corporation (2016 - 2017)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id92"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">VP Engineering</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    While I still was in Venezuela, Future Link sponsored my
+	    work permit and visa for Dominican Republic. In my short
+	    period with this company I was able to:
+	  </fo:block>
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id94"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id95"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Perform a PCI compliance self-assessment and suggest
+		improvements.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id97"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Participate in the recruitment process of a Junior
+		System Administrator, giving my recommendations for a
+		specific candidate, who resulted elected and was able to
+		perform assigned tasks with outstanding results.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id99"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Identify problems on time. An example of a suggested
+		solution to one of those problems was to re-assign
+		resources from one project to another, where the
+		deadline was very close and manpower was required.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id101"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Creation and update of required packages within the
+		framework pkgsrc, from NetBSD. Server updates.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+      </fo:block>  
+      
+      
+      <fo:block id="id103"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Higher Institute of Technological Studies and
+	Investigations - ISEIT (2006 - 2010)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id104"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Instructor</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id105"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id106"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Member of professors staff, mainly for the "Certified
+		Linux Administrator" program.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+      </fo:block>
+      <fo:block id="id108"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">"La Villa del Cine" Foundation (2008)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id109"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Networking and Telecommunications Coordinator</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id110"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id111"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Network and systems administration. Coordination of tech
+		support staff. Migration of private solutions to FOSS
+		alternatives.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+      </fo:block>
+      
+      <fo:block id="id113"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Corcaribe Tecnología, C.A.(2007 - 2008)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id114"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Network Administrator - Consultant</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id115"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id116"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Maintenance of the IT platform. Consultancy for external
+		customers. Specialized support.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+      </fo:block>
+      
+      <fo:block id="id118"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt"> Economic and Social Development Bank of Venezuela -
+	BANDES (2006-2007)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id119"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Tech Assistant</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id120"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id121"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Structured cabling. Data and voice networks
+		maintenance. PBX administration.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+	<fo:block id="id123"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Security Information Analyst</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id124"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id125"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Monitoring, review and updating of the institution's
+		security policies.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id127"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Penetration Testing - Ethical Hacking
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id129"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Monitor compliance of established policies. Checking of
+		procedures for communications and data exchange between
+		financial and government institutions.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id131"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Research
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+      </fo:block>
+      
+      
+      <fo:block id="id133"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Teravision Technologies (2005-2006)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id134"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Network Administrator</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id135"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id136"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Internal customers support. Creation and maintenance of
+		LAN services. Network rewiring and hiring of new ISP.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id138"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Migration of version control system from CVS on Win32 to
+		SVN on Linux.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id140"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Setup of a HA database cluster for
+		applications. Separation of development and production
+		environments.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id142"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Creation and implementation of a BCP for the development
+		team.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id144"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Maintenance of a software appliance.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+      </fo:block>
+      
+      <fo:block id="id146"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">World Tel-Fax Electronics, C.A. (2001-2005)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id147"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Telephone Operator (2001-2002)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id148"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id149"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Call center operator. Search of specialized information
+		service INFO-LINE<fo:inline font-family="serif,Symbol,ZapfDingbats">™</fo:inline>.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+	<fo:block id="id151"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Transcriptor - Information Department (2002)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id152"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id153"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Data transcribers team coordination. Creation of
+		reporting and statistics tools, QA, productivity
+		measuring, among others.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+	<fo:block id="id155"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Audio Operator (2002-2003)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id156"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id157"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Recording, edition and conversion of audio clips for IVR
+		systems and multimedia contents.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+	<fo:block id="id159"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Tech Support (2003-2005)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	  
+	  <fo:list-block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" space-after.optimum="1em" space-after.minimum="0.8em" space-after.maximum="1.2em" provisional-label-separation="0.2em" provisional-distance-between-starts="1.0em" id="id160"><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id161"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Internal and external customers support. Preventive and
+		corrective maintenance or workstations. PBX
+		administration.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id163"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Servers and network monitoring: Routers, Gateway SMS,
+		IVR's, Switches, web server - Email - Databases, Web
+		Proxy-Cache, Portmaster, PBX, DNS, DHCP.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item><fo:list-item space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em" id="id165"><fo:list-item-label end-indent="label-end()"><fo:block>•</fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>
+	      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+		Support for end-users and external costumers.
+	      </fo:block>
+	    </fo:block></fo:list-item-body></fo:list-item></fo:list-block>
+	</fo:block>
+      </fo:block>
+    </fo:block>
+
+    <fo:block id="id10"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Projects</fo:marker><fo:block font-size="17.28pt">Projects</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+      
+    <fo:block id="id167"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Freelance Consultant (2008 - 2016)</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+      <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	Along almost 9 years of activities as a consultant, I've been
+	involved in many projects and activities. Here are the most
+	important projects, the company involved and a short
+	description with some achievements:
+      </fo:block>
+      
+      <fo:block id="id169"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Upstream Bandwidth Optimization</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">Aeronet, C.A.</fo:block></fo:block></fo:block>
+	
+	
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Aeronet is a <fo:inline font-style="italic">Wireless ISP</fo:inline> in
+	  Venezuela. They needed to optimize the available upstream
+	  Bandwidth for their customers.
+	</fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Overall, upstream traffic was optimized by a 24% and the
+	  end-user experience was improved by 32%, thanks to higher
+	  download rates in average. The solution was implemented
+	  using the Squid Proxy on a server with a fine tuned
+	  FreeBSD.
+	</fo:block>
+      </fo:block>
+
+      <fo:block id="id173"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Virtualization</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">National Housing and Habitat Bank</fo:block></fo:block></fo:block>
+	
+	
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  BANAVIH (for its initials in spanish) is the official
+	  institution in Venezuela for housing loans and
+	  subsidy. They needed to optimize the hardware utilization in
+	  their datacenter.
+	</fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  A total of 4 servers were freed and repurposed, thanks to
+	  the application of the virtualization technology in
+	  development and testing servers; saving thousands of dollars
+	  in hardware adquirance. Red Hat Enterprise Linux and Xen
+	  were the technologies used in this project.
+	</fo:block>
+      </fo:block>
+      
+      <fo:block id="id176"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Migration of Email and Domain Controller services to
+	Open Source Solutions</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">CONVIASA</fo:block></fo:block></fo:block>
+	
+	
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  CONVIASA is a venezuelan airline. The objectives of the
+	  project were the migration of email services and primary
+	  domain controller to open source solutions.
+	</fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  The email services was migrated from third-party provider to
+	  a self-hosted solution based on Red Hat Enterprise 5,
+	  Postfix, Dovecot and Roundcube as web interface. The PDC was
+	  implemented on Debian with Samba3 with group-based custom
+	  profiles on workstations. Both services were integrated with
+	  OpenLDAP as the backend for users identification and
+	  authentication. The airline achieved the compliment 
+	</fo:block>
+      </fo:block>
+
+      <fo:block id="id179"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Web form for issuing policies</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">Pyugmao Fondos Administrados, C.A.</fo:block></fo:block></fo:block>
+	
+	
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Pyugmao is a risk manager company, providing Civil Liability
+	  Policies to their customers. They needed a centralized
+	  system to generate policies.
+	</fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  A web form was developed in the Perl programming language
+	  with the CGI interface and PostgreSQL for the database. The
+	  company was able to increase their salesforce and to emit
+	  more than ten times more policies monthly, compared to the
+	  months before the implementation of the solution.
+	</fo:block>
+      </fo:block>
+      
+      <fo:block id="id182"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Interface for BT-3000 Plus Chemistry Analyzer</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">Neat Systems, C.A.</fo:block></fo:block></fo:block>
+	
+	
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  Neat Systems is a development company specialized in ERP
+	  Software for hospitals and laboratories, running on the
+	  Windows platform. The <fo:inline font-style="italic">BT-3000 Plus Chemistry
+	  Analyzer</fo:inline> has a serial communication protocol via
+	  DB9 COMM Port, which makes it difficult to integrate into
+	  the TCP/IP network.
+	</fo:block>
+	<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	  A webservice was developed, implementing the serial protocol
+	  and making it available via HTTP. The solution was written
+	  in Perl on Debian Linux, and embedded in a VirtualBox image,
+	  so it can be run inside a Windows server.
+	</fo:block>
+      </fo:block>
+
+	<fo:block id="id186"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Digicheck2</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">Bayco, C.A.</fo:block></fo:block></fo:block>
+	  
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    Bayco is a security solutions provider for the banking
+	    industry in Venezuela. They lost the control over a
+	    product they owned, due to some discordance with the
+	    former developers of the product. I was able to
+	    reverse-engineering the product and implement it using
+	    open source technologies. I gave them back the control
+	    over the product by writing detailed documentation about
+	    how their product works, how was developed and how can be
+	    modified.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    The rewrite was made with Perl, using the framework
+	    Mojolicious, PortgreSQL and Debian Linux. A customization
+	    of the debian-installer was made in order to include the
+	    corporate image of Bayco. The functionality of the
+	    product was to take a screenshot of face, check and id
+	    document when a client goes to the bank to cash a check.
+	  </fo:block>
+	</fo:block>
+
+	<fo:block id="id189"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">High Availability in VoIP</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">FIDES, C.A.</fo:block></fo:block></fo:block>
+	  
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    FIDES is a company providing medical services through a
+	    call center. The requirement was a setup such that if the
+	    main VoIP PBX server fails, the spare can't take more than
+	    20 seconds for the failover.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    The goal was achieved combining specialized hardware from
+	    Digium<fo:inline font-family="serif,Symbol,ZapfDingbats">™</fo:inline> and replication techniques
+	    on Elastix.
+	  </fo:block>
+	</fo:block>
+
+	<fo:block id="id192"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Load Balancing Cluster</fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">inmobilia.com</fo:block></fo:block></fo:block>
+	  
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em"><fo:inline font-style="italic">inmobilia.com</fo:inline> is a real state web
+	  portal with presence in 13 countries. The initial setup for
+	  their portal went out of capacity when they reached 4 hits
+	  per second. I designed for them a mixed cluster with virtual
+	  and bare metal servers, with defined roles as
+	  <fo:inline font-style="italic">loadbalancers</fo:inline>,
+	  <fo:inline font-style="italic">backends</fo:inline> and
+	  <fo:inline font-style="italic">databases</fo:inline>. I also leaded the
+	  development team into the <fo:inline font-style="italic">Git Branching
+	  Model</fo:inline> workflow, documented in <fo:basic-link external-destination="url(http://http://nvie.com/posts/a-successful-git-branching-model/)">this
+	  article by Vincent Driessen</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(http://http://nvie.com/posts/a-successful-git-branching-model/)">http://http://nvie.com/posts/a-successful-git-branching-model/</fo:basic-link>]</fo:inline>. Finally, I configured
+	  an Amazon S3 bucket for the bank of images of the portal
+	  (about 160 GB by that time) and helped to integrate the
+	  storage service in the portal.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    The performance increased drastically, holding loads of
+	    above 30 requests per second with no significant impact on
+	    the servers, whose could handle up to 5 times such load
+	    without penalties. This implementation is saving money by
+	    using virtual servers for most of the hosts and not
+	    requiring huge amounts of additional storage for backups.
+	  </fo:block>
+	</fo:block>
+
+	<fo:block id="id200"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="12pt">Recovery of files from Glacier<fo:inline font-family="serif,Symbol,ZapfDingbats">™</fo:inline></fo:block></fo:block></fo:block></fo:block><fo:block keep-together.within-column="always" font-family="sans-serif,Symbol,ZapfDingbats">inmobilia.com</fo:block></fo:block></fo:block>
+	  
+	  
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    The development team of inmobilia.com tried to implement
+	    the versioning feature from S3 service. However, they made
+	    a mistake and sent all their images to Glacier, where they
+	    are not available online. Even with paid support from AWS,
+	    they were unable to recover the files.
+	  </fo:block>
+	  <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+	    Using the API from AWS S3 I wrote I script in Perl making
+	    parallel request, which helped to recover the files 16
+	    times faster than the time required if we used the methods
+	    suggested by AWS support. You can take a look at the
+	    script at https://github.com/granalberto/s3mu.
+	  </fo:block>
+	</fo:block>
+	    
+	  
+	
+    </fo:block>
+    </fo:block>
+  </fo:block>  
+  
+  <fo:block id="id11"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Training: Specialized Courses and Certifications</fo:marker><fo:block font-size="20.736pt">Training: Specialized Courses and Certifications</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+    
+    <fo:block id="id12"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">IT Courses and Certifications</fo:marker><fo:block font-size="17.28pt">IT Courses and Certifications</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+      <fo:block id="id203"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">
+	  Network Management
+	</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id204">
+	  
+	  
+	  
+	  
+	  
+	  <fo:block id="id205">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Best practices in technical and management aspect for
+	      data and voice networks. Available tools, configuration
+	      and use.
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	      Central University of Venezuela - Faculty of Engineering
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Instructor: </fo:inline>
+	      Prof. Vicenzo Mendillo (UCV)
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      32 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certification granted: </fo:inline>
+	      Certificate of approval
+	    </fo:block>
+	  </fo:block>
+	</fo:block>	  
+      </fo:block>
+      <fo:block id="id206"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Linux Professional Certified Program</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id207">
+	  
+	  
+	  
+	  
+	  
+	  <fo:block id="id208">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Basic and advanced administration of Linux-based
+	      operative systems. Theoretic and ideological roots of free
+	      software movement. Unix-like environments tool set.
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	      Higher Institute of Technological Studies and
+	      Investigations (ISEIT)
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Instructor: </fo:inline>
+	      Ing. Carlos García - Ing. Jesús Rivero
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      80 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>
+	      Certified Linux Administrator Professional
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+
+      <fo:block id="id209"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Linux Security Professional</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id210">
+	  
+	  
+	  
+	  
+	  
+	  <fo:block id="id211">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Basis of information security concepts. Tools and
+	      methodologies for security policies implementations.
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	       Higher Institute of Technological Studies and
+	      Investigations (ISEIT)
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Instructor: </fo:inline>
+	      Ing. Ricardo Strusberg
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      32 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>
+	      Certified Linux Security Administrator Professional 
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+
+      <fo:block id="id212"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Linux Networks Administrator</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id213">
+	  
+	  
+	  
+	  
+	  
+	  <fo:block id="id214">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Networking concepts, services and open source
+	      implementations.
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	      Higher Institute of Technological Studies and
+	      Investigations (ISEIT)
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Instructor: </fo:inline>
+	      Ing. Ernesto Hernandez-Novich
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      32 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificado Emitido: </fo:inline>
+	      Certified Linux Networks Administrator Professional
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+
+      <fo:block id="id215"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">LPI Certification</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id216">
+	  
+	  
+	  
+	  
+	  <fo:block id="id217">
+	    <fo:block><fo:inline font-weight="bold">Institute: </fo:inline>Linux Professional Institute</fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>Junior Linux Certified Professional (LPIC-1)</fo:block>
+	    <fo:block><fo:inline font-weight="bold">LPI ID: </fo:inline>LPI000092165</fo:block>
+	    <fo:block><fo:inline font-weight="bold">Verification Code: </fo:inline>k3z5ham8ph</fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+      
+      <fo:block id="id218"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Agile Development Workshop with Python</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id219">
+	  
+	  
+	  
+	  
+	  
+	  <fo:block id="id220">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Tools for agile development of user interfaces with
+	      Python
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	      V Foro Mundial del Conocimiento Libre
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Instructor: </fo:inline>
+	      Ing. Francisco Palm
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      8 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>
+	      Certificate of participation
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+      
+    </fo:block>
+    <fo:block id="id13"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Professional and Personal Growth Courses</fo:marker><fo:block font-size="17.28pt">Professional and Personal Growth Courses</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+      
+
+      <fo:block id="id221"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Voice and Diction</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id222">
+	  
+	  
+	  
+	  
+	  <fo:block id="id223">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Voice manipulation for professional purposes.
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Instructor: </fo:inline>
+	      Lic. Adriana Romero
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      8 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>
+	      Certificate of Approval
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+
+      <fo:block id="id224"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Job Analysis</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id225">
+	  
+	  
+	  
+	  
+	  <fo:block id="id226">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Position Analysis
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	      INCE
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      40 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>
+	     Certificate of Approval
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+
+      <fo:block id="id227"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Psychology Applied to the Supervision</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id228">
+	  
+	  
+	  
+	  
+	  <fo:block id="id229">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Management of work situations and leadership.
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	      INCE
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      20 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>
+	     Certificate of Approval
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+      
+      <fo:block id="id230"><fo:block><fo:block><fo:block keep-together.within-column="always" margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:block font-size="14.4pt">Quality-oriented Management</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+	
+	<fo:block id="id231">
+	  
+	  
+	  
+	  
+	  <fo:block id="id232">
+	    <fo:block><fo:inline font-weight="bold">Description: </fo:inline>
+	      Concepts and strategies for process
+	      optimization. Continuous improvement.
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Institution: </fo:inline>
+	      INCE
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Duration: </fo:inline>
+	      100 hours
+	    </fo:block>
+	    <fo:block><fo:inline font-weight="bold">Certificate granted: </fo:inline>
+	     Certificate of Approval
+	    </fo:block>
+	  </fo:block>
+	</fo:block>
+      </fo:block>
+    </fo:block>
+  </fo:block>
+
+  <fo:block id="id233"><fo:block><fo:block><fo:block><fo:block margin-left="0pt" font-size="24.8832pt" font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold"><fo:block keep-with-next.within-column="always" space-before.optimum="10pt" space-before.minimum="10pt * 0.8" space-before.maximum="10pt * 1.2" hyphenate="false" text-align="center" start-indent="0pt" hyphenation-character="-" hyphenation-push-character-count="2" hyphenation-remain-character-count="2">About this document</fo:block></fo:block></fo:block></fo:block></fo:block>
+    
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      This document was produced using the <fo:basic-link external-destination="url(https://docbook.org)">DocBook 5</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(https://docbook.org)">https://docbook.org</fo:basic-link>]</fo:inline> schema with
+      <fo:basic-link external-destination="url(https://github.com/docbook/xslt10-stylesheets)">XSL
+      stylesheets</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(https://github.com/docbook/xslt10-stylesheets)">https://github.com/docbook/xslt10-stylesheets</fo:basic-link>]</fo:inline>, <fo:basic-link external-destination="url(https://www.gnu.org/s/emacs)">Emacs</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(https://www.gnu.org/s/emacs)">https://www.gnu.org/s/emacs</fo:basic-link>]</fo:inline> as text
+      editor, <fo:basic-link external-destination="url(https://xmlsoft.org/xslt/xsltproc.html)">xsltproc</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(https://xmlsoft.org/xslt/xsltproc.html)">https://xmlsoft.org/xslt/xsltproc.html</fo:basic-link>]</fo:inline>
+      for generating HTML 5 and <fo:basic-link external-destination="url(https://xmlgrphics.apache.org/fop/)">Apache
+      FOP</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(https://xmlgrphics.apache.org/fop/)">https://xmlgrphics.apache.org/fop/</fo:basic-link>]</fo:inline> for its <fo:basic-link external-destination="url(https://granalberto.github.io/pdf/ajmp-cv-en.pdf)">publication
+      in PDF</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(https://granalberto.github.io/pdf/ajmp-cv-en.pdf)">https://granalberto.github.io/pdf/ajmp-cv-en.pdf</fo:basic-link>]</fo:inline>. I'm also including a CSS Stylesheet from <fo:basic-link external-destination="url()">Neat CSS</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url()"/>]</fo:inline> for a better look and feel on the
+      web.
+    </fo:block>
+    <fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">
+      You can check the source code for this document in <fo:basic-link external-destination="url(https://github.com/granalberto/cv/blob/master/docbook5/ajmp-cv-en.xml)">Github</fo:basic-link><fo:inline hyphenate="false"> [<fo:basic-link external-destination="url(https://github.com/granalberto/cv/blob/master/docbook5/ajmp-cv-en.xml)">https://github.com/granalberto/cv/blob/master/docbook5/ajmp-cv-en.xml</fo:basic-link>]</fo:inline>
+    </fo:block>
+  </fo:block>
+</fo:flow></fo:page-sequence></fo:root>
