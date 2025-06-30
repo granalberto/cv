@@ -22,6 +22,13 @@
 	<date>July 2017</date>
 	<revremark>Moving to Docbook 5 from Docbook 4</revremark>
       </revision>
+      <revision>
+	<revnumber>1.0</revnumber>
+	<date>July 2008</date>
+	<revremark>Based on <link
+	xlink:href="https://github.com/aimass">Alejandro
+	Imass's</link> CV</revremark>
+      </revision>
     </revhistory>
   </articleinfo>
   
@@ -69,7 +76,11 @@
 	  I'm also in charge of editing videos for <link
 	  xlink:href="https://youtube.com/@rabinoshui">Rabbi Shui
 	  Rosenblum's YouTube channel</link>, in his daily delivery of
-	  Chumash studies.
+	  Chumash studies. I use <link
+	  xlink:href="https://www.openshot.org">OpenShot</link> and
+	  <link
+	  xlink:href="https://www.audacityteam.org">Audacity</link>
+	  for these tasks.
 	</para>
       </sect3>
     </sect2>
@@ -152,7 +163,7 @@
 	</para>
 	<para>
 	  I also read technical bulletins and engineering blogs from
-	  the top companies is technologies.
+	  the top companies in the information technologies field.
 	</para>
       </listitem>
     </itemizedlist>
@@ -175,11 +186,22 @@
     <itemizedlist>
       <title>Operative Systems</title>
       <listitem>
-	<para>FreeBSD for servers operative systems</para>
+	<para>FreeBSD for servers operative systems and appliance
+	development</para>
       </listitem>
       <listitem>
 	<para>Debian GNU/Linux, CentOS, Ubuntu Server and other Linux
 	flavors</para>
+      </listitem>
+      <listitem>
+	<para>
+	  Software packaging for FreeBSD with <link
+	  xlink:href="https://www.freshports.org">The Ports
+	  Collection</link>, for Debian according to their <link
+	  xlink:href="https://www.debian.org/doc/debian-policy/">packaging
+	  policies</link> and basically for any unix-based operative
+	  system with <link xlink:href="https://www.pkgsrc.org/">pkgsrc</link>.
+	</para>
       </listitem>
     </itemizedlist>
     <itemizedlist>
@@ -1046,7 +1068,7 @@
       editor, <link
       xlink:href="https://xmlsoft.org/xslt/xsltproc.html">xsltproc</link>
       for generating HTML 5 and <link
-      xlink:href="https://xmlgrphics.apache.org/fop/">Apache
+      xlink:href="https://xmlgraphics.apache.org/fop/">Apache
       FOP</link> for its <link
       xlink:href="https://granalberto.github.io/pdf/ajmp-cv-en.pdf">publication
       in PDF</link>. I'm also including a CSS Stylesheet from <link
